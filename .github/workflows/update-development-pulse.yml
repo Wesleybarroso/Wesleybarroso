@@ -31,7 +31,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: Wesleybarroso
         run: |
-          python scripts/update_languages_professional.py
+          python scripts/update_languages.py
 
       - name: Commit updated chart
         run: |
