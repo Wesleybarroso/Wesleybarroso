@@ -1,65 +1,72 @@
 <div align="center">
 
-# `>_` WESLEY BARROSO
+<img
+  src="./assets/hero-altixdev.svg"
+  width="100%"
+  alt="Wesley Barroso - Software Engineer"
+/>
 
-### SOFTWARE ENGINEER
-### FULL STACK DEVELOPER
+</div>
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:020617,50:0066FF,100:00BFFF&text=TRANSFORMANDO%20IDEIAS%20EM%20SOLUÇÕES&fontColor=FFFFFF&fontSize=28&fontAlignY=45&animation=twinkling&desc=Software%20%7C%20APIs%20%7C%20Automação%20%7C%20SaaS&descAlignY=65&descSize=15" width="100%"/>
+<div align="center">
+
+### `IDEIA → CÓDIGO → BUILD → DEPLOY → ESCALA`
 
 </div>
 
 ---
 
-<div align="center">
+## ⚡ Sobre mim
 
-## ⚡ TRANSFORMANDO IDEIAS EM SOLUÇÕES
+Sou **Software Engineer e Full Stack Developer**, focado na criação de sistemas, APIs, automações, integrações e produtos digitais.
 
-</div>
+Gosto de transformar problemas reais em soluções de software modernas, funcionais e escaláveis.
 
-> Meu objetivo não é apenas escrever código.
+Meu trabalho envolve desde a construção da interface até a arquitetura do back-end, banco de dados, infraestrutura e deploy.
+
+> **Meu objetivo não é apenas escrever código.**
 >
 > **É transformar ideias em soluções que funcionam na prática.**
 
-Desenvolvedor focado na criação de **sistemas, APIs, automações, integrações e produtos digitais**.
-
-Construo soluções pensando não apenas no código, mas também em **arquitetura, experiência, escalabilidade, infraestrutura e resultado**.
-
 ---
 
-<div align="center">
+# 💻 Tecnologias
 
-### `IDEIA` → `CÓDIGO` → `BUILD` → `DEPLOY` → `ESCALA`
-
-</div>
-
----
-
-# 🧊 TECNOLOGIAS
+## Front-end
 
 <div align="center">
-
-## FRONT-END
 
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs" />
 
-<br><br>
+</div>
 
-## BACK-END
+<br>
+
+## Back-end
+
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python" />
 
-<br><br>
+</div>
 
-## BANCO DE DADOS
+<br>
+
+## Banco de Dados
+
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis" />
 
-<br><br>
+</div>
 
-## DEVOPS & INFRAESTRUTURA
+<br>
+
+## DevOps & Infraestrutura
+
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform" />
 
@@ -67,7 +74,7 @@ Construo soluções pensando não apenas no código, mas também em **arquitetur
 
 ---
 
-# 🧠 ESPECIALIDADES
+# 🧠 Especialidades
 
 <table>
 <tr>
@@ -139,7 +146,7 @@ Desenvolvimento de soluções para comunicação e automação utilizando WhatsA
 - Webhooks
 - Integrações
 - Sistemas de atendimento
-- Automação
+- Automação de processos
 
 </td>
 
@@ -172,8 +179,8 @@ Criação de produtos digitais baseados em assinatura.
 - Autenticação
 - APIs
 - Dashboards
-- Pagamentos
-- Monitoramento
+- Integrações de pagamento
+- Monitoramento de utilização
 
 </td>
 
@@ -182,20 +189,20 @@ Criação de produtos digitais baseados em assinatura.
 
 ---
 
-# 🔥 PROJETOS
+# 🔥 Projetos
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-## 🔵 ALTIXDEV
+## 🔵 AltixDev
 
 ### Desenvolvimento de Software & Soluções Digitais
 
 A **AltixDev** é minha marca voltada para desenvolvimento de software e criação de soluções digitais.
 
-### O que desenvolvemos
+### Áreas de atuação
 
 - Desenvolvimento de sistemas
 - Aplicações web
@@ -209,14 +216,19 @@ A **AltixDev** é minha marca voltada para desenvolvimento de software e criaç�
 <br>
 
 <a href="https://altixdev.com.br">
-<img src="https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+
+<img
+src="https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
+alt="AltixDev"
+/>
+
 </a>
 
 </td>
 
 <td width="50%" valign="top">
 
-## 💻 WESLEY BARROSO
+## 💻 Wesley Barroso
 
 ### Software Engineer & Full Stack Developer
 
@@ -234,7 +246,12 @@ Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabal
 <br>
 
 <a href="https://wesleybarroso.com">
-<img src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+
+<img
+src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
+alt="Portfólio"
+/>
+
 </a>
 
 </td>
@@ -244,18 +261,18 @@ Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabal
 
 ---
 
-# 🛠️ STACK
+# 🛠️ Stack
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
-│                         FRONTEND                         │
+│                        FRONT-END                         │
 ├──────────────────────────────────────────────────────────┤
 │ React • TypeScript • JavaScript • Vite • HTML • CSS     │
-│ Next.js                                                 │
+│ Next.js                                                  │
 └──────────────────────────────────────────────────────────┘
 
 ┌──────────────────────────────────────────────────────────┐
-│                         BACKEND                          │
+│                         BACK-END                         │
 ├──────────────────────────────────────────────────────────┤
 │ Node.js • Go • Express • Fastify • Python • REST APIs  │
 └──────────────────────────────────────────────────────────┘
@@ -275,9 +292,9 @@ Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabal
 
 ---
 
-# 🏗️ ARQUITETURA
+# 🏗️ Arquitetura
 
-Gosto de trabalhar com arquiteturas que permitem que os projetos cresçam de maneira organizada.
+Gosto de trabalhar com arquiteturas organizadas, buscando manter os projetos preparados para crescer.
 
 ```text
                          ┌────────────────────┐
@@ -309,7 +326,7 @@ Gosto de trabalhar com arquiteturas que permitem que os projetos cresçam de man
 
 ---
 
-# ⚙️ COMO TRABALHO
+# ⚙️ Como trabalho
 
 <table>
 <tr>
@@ -391,7 +408,46 @@ Melhorias e novas funcionalidades.
 
 ---
 
-# 🎯 ATUALMENTE
+# 🔄 Meu fluxo
+
+<div align="center">
+
+```text
+┌──────────┐
+│   IDEIA  │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│ ARQUITETURA │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│   CODE   │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│   BUILD  │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│  DEPLOY  │
+└────┬─────┘
+     │
+     ▼
+┌──────────┐
+│  ESCALA  │
+└──────────┘
+```
+
+</div>
+
+---
+
+# 🎯 Atualmente
 
 Estou focado em:
 
@@ -403,80 +459,118 @@ Estou focado em:
 - 🏢 Criar soluções para empresas
 - ☁️ Melhorar infraestrutura e deploy
 - 🧠 Aprimorar arquitetura de software
-- 🔐 Criar aplicações seguras
-- 📊 Desenvolver sistemas orientados a dados
+- 🔐 Desenvolver aplicações seguras
+- 📊 Criar sistemas orientados a dados
 
 ---
 
-# 📊 ESTATÍSTICAS DO GITHUB
+# 📊 Estatísticas do GitHub
 
 <div align="center">
 
 <img
 src="https://github-readme-stats.vercel.app/api?username=Wesleybarroso&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
 height="180"
+alt="Estatísticas do GitHub"
 />
 
 <img
 src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wesleybarroso&layout=compact&theme=tokyonight&hide_border=true"
 height="180"
+alt="Linguagens mais utilizadas"
 />
 
 </div>
 
 ---
 
-# 🔥 SEQUÊNCIA DO GITHUB
+# 🔥 Sequência do GitHub
 
 <div align="center">
 
 <img
 src="https://streak-stats.demolab.com/?user=Wesleybarroso&theme=tokyonight&hide_border=true"
 width="700"
+alt="GitHub Streak"
 />
 
 </div>
 
 ---
 
-# 📈 ATIVIDADE DO GITHUB
+# 📈 Atividade do GitHub
 
 <div align="center">
 
 <img
 src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Wesleybarroso&theme=tokyonight"
 width="100%"
+alt="Atividade do GitHub"
 />
 
 </div>
 
 ---
 
-# 🌐 CONECTE-SE COMIGO
+# 📌 Principais áreas
+
+<div align="center">
+
+| Área | Foco |
+|---|---|
+| 🌐 Web | Aplicações modernas e responsivas |
+| 🔌 APIs | Integrações e sistemas distribuídos |
+| 🤖 Automação | Processos e fluxos automatizados |
+| 📱 WhatsApp | Comunicação e automação |
+| 🏢 Empresarial | Sistemas personalizados |
+| 🚀 SaaS | Produtos digitais escaláveis |
+| 🐳 DevOps | Containers e infraestrutura |
+| 🗄️ Dados | PostgreSQL, MySQL, SQLite e Redis |
+
+</div>
+
+---
+
+# 🌎 Conecte-se comigo
 
 <div align="center">
 
 <a href="https://wesleybarroso.com">
-<img src="https://img.shields.io/badge/🌐%20PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"/>
+
+<img
+src="https://img.shields.io/badge/🌐%20PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"
+alt="Portfólio"
+/>
+
 </a>
 
-&nbsp;
+&nbsp;&nbsp;
 
 <a href="https://altixdev.com.br">
-<img src="https://img.shields.io/badge/🚀%20ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"/>
+
+<img
+src="https://img.shields.io/badge/🚀%20ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"
+alt="AltixDev"
+/>
+
 </a>
 
-&nbsp;
+&nbsp;&nbsp;
 
 <a href="https://github.com/Wesleybarroso">
-<img src="https://img.shields.io/badge/💻%20GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"/>
+
+<img
+src="https://img.shields.io/badge/💻%20GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
+alt="GitHub"
+/>
+
 </a>
 
 </div>
 
 ---
 
-# 💙 FILOSOFIA
+# 💙 Filosofia
 
 <div align="center">
 
@@ -486,7 +580,23 @@ width="100%"
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:0066FF,100:00BFFF&animation=twinkling" width="100%"/>
+> **Transformar ideias em software.**
+>
+> **Transformar problemas em soluções.**
+>
+> **Transformar código em produtos.**
+
+</div>
+
+---
+
+<div align="center">
+
+<img
+src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:0066FF,100:00BFFF&animation=twinkling"
+width="100%"
+alt="Footer"
+/>
 
 ### 🚀 TRANSFORMANDO IDEIAS EM SOFTWARE.
 
