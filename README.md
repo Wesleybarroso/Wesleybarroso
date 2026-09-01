@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/hero-altixdev.svg" width="100%" alt="Wesley Barroso - Software Engineer"/>
+<img
+src="./assets/hero-altixdev.svg"
+width="100%"
+alt="Wesley Barroso - Software Engineer"
+/>
 
 <br>
 
@@ -26,63 +30,15 @@ Atuo desde a construção da interface até a arquitetura do back-end, banco de 
 
 # 🧠 O que eu construo
 
-<table>
-<tr>
+<div align="center">
 
-<td width="33%" align="center">
+<img
+src="./assets/areas-altixdev.svg"
+width="100%"
+alt="Áreas de atuação da AltixDev"
+/>
 
-## 🌐 Desenvolvimento Web
-
-Aplicações modernas, responsivas e orientadas à experiência do usuário.
-
-</td>
-
-<td width="33%" align="center">
-
-## 🔌 APIs
-
-APIs REST, integrações, autenticação, webhooks e sistemas distribuídos.
-
-</td>
-
-<td width="33%" align="center">
-
-## 🤖 Automação
-
-Automação de processos e integração entre diferentes sistemas.
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="33%" align="center">
-
-## 📱 WhatsApp
-
-Integrações, automações, atendimento e gerenciamento de sessões.
-
-</td>
-
-<td width="33%" align="center">
-
-## 🏢 Sistemas Empresariais
-
-Sistemas administrativos, dashboards e soluções personalizadas.
-
-</td>
-
-<td width="33%" align="center">
-
-## 🚀 SaaS
-
-Produtos digitais, plataformas, planos, usuários e escalabilidade.
-
-</td>
-
-</tr>
-</table>
+</div>
 
 ---
 
@@ -92,7 +48,7 @@ Produtos digitais, plataformas, planos, usuários e escalabilidade.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs" alt="Tecnologias Front-end"/>
 
 </div>
 
@@ -102,7 +58,7 @@ Produtos digitais, plataformas, planos, usuários e escalabilidade.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python" />
+<img src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python" alt="Tecnologias Back-end"/>
 
 </div>
 
@@ -112,7 +68,7 @@ Produtos digitais, plataformas, planos, usuários e escalabilidade.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis" alt="Banco de Dados"/>
 
 </div>
 
@@ -122,7 +78,7 @@ Produtos digitais, plataformas, planos, usuários e escalabilidade.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform" />
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform" alt="DevOps e Infraestrutura"/>
 
 </div>
 
@@ -141,7 +97,7 @@ alt="Linguagens mais utilizadas no mês atual"
 <br>
 
 <sub>
-Atualizado automaticamente todos os dias pelo GitHub Actions com base nos commits e arquivos alterados no mês atual.
+Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvolvimento do mês atual.
 </sub>
 
 </div>
@@ -394,135 +350,13 @@ Gosto de construir aplicações pensando em organização, manutenção, seguran
 
 # ⚙️ Como trabalho
 
-<table>
-
-<tr>
-
-<td align="center" width="16%">
-
-### 01
-
-🧠
-
-**ENTENDIMENTO**
-
-Problema, objetivos e necessidades.
-
-</td>
-
-<td align="center" width="16%">
-
-### 02
-
-📐
-
-**PLANEJAMENTO**
-
-Funcionalidades, arquitetura e tecnologias.
-
-</td>
-
-<td align="center" width="16%">
-
-### 03
-
-💻
-
-**DESENVOLVIMENTO**
-
-Código organizado e boas práticas.
-
-</td>
-
-<td align="center" width="16%">
-
-### 04
-
-🧪
-
-**TESTES**
-
-Funcionalidades e integrações.
-
-</td>
-
-<td align="center" width="16%">
-
-### 05
-
-🚀
-
-**DEPLOY**
-
-Aplicação preparada para produção.
-
-</td>
-
-<td align="center" width="16%">
-
-### 06
-
-📈
-
-**EVOLUÇÃO**
-
-Melhorias e novas funcionalidades.
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# 🔄 Ciclo de desenvolvimento
-
 <div align="center">
 
-`💡 IDEIA`
-
-↓
-
-`🧠 ANÁLISE`
-
-↓
-
-`📐 DESIGN`
-
-↓
-
-`💻 CÓDIGO`
-
-↓
-
-`🧪 TESTES`
-
-↓
-
-`🚀 DEPLOY`
-
-↓
-
-`📈 ESCALA`
-
-</div>
-
----
-
-# ⚡ Painel do Desenvolvedor
-
-<div align="center">
-
-| Área | Foco |
-|---|---|
-| 🌐 Front-end | React · TypeScript · JavaScript · Vite |
-| ⚙️ Back-end | Node.js · Go · Express · Fastify |
-| 🔌 APIs | REST · JWT · Webhooks · Integrações |
-| 🗄️ Dados | PostgreSQL · MySQL · SQLite · Redis |
-| 🐳 Infraestrutura | Docker · Linux · Nginx · Traefik |
-| 🔧 Versionamento | Git · GitHub |
-| 🚀 Produto | SaaS · Sistemas · Automação |
+<img
+src="./assets/workflow-developer-v3.svg"
+width="100%"
+alt="Como trabalho, ciclo de desenvolvimento e painel do desenvolvedor"
+/>
 
 </div>
 
@@ -530,18 +364,39 @@ Melhorias e novas funcionalidades.
 
 # 🎯 Atualmente
 
-Estou focado em:
+Estou focado em construir soluções que unam **software, automação, integrações e infraestrutura**.
 
-- 🚀 Criar produtos digitais
-- 💻 Desenvolver sistemas completos
-- 🔌 Criar APIs escaláveis
-- 🤖 Automatizar processos
-- 📱 Desenvolver integrações com WhatsApp
-- 🏢 Criar soluções para empresas
-- ☁️ Melhorar infraestrutura e deploy
-- 🧠 Aprimorar arquitetura de software
-- 🔐 Desenvolver aplicações seguras
-- 📊 Criar sistemas orientados a dados
+### 🚀 Desenvolvimento
+
+- Criar produtos digitais
+- Desenvolver sistemas completos
+- Criar aplicações web modernas
+- Desenvolver APIs escaláveis
+- Construir aplicações SaaS
+
+### 🤖 Automação & Integrações
+
+- Automatizar processos
+- Desenvolver integrações com WhatsApp
+- Criar fluxos automatizados
+- Integrar APIs externas
+- Desenvolver sistemas de atendimento
+
+### ☁️ Infraestrutura
+
+- Melhorar ambientes de produção
+- Trabalhar com Docker
+- Automatizar deploys
+- Melhorar arquitetura
+- Criar ambientes escaláveis
+
+### 🧠 Engenharia de Software
+
+- Aprimorar arquitetura de software
+- Criar sistemas mais seguros
+- Melhorar performance
+- Trabalhar com microsserviços
+- Desenvolver soluções orientadas a dados
 
 ---
 
@@ -568,7 +423,7 @@ alt="AltixDev"
 
 ## 💻 Wesley Barroso
 
-**Portfólio pessoal e projetos**
+**Portfólio pessoal, projetos e experiências**
 
 <br>
 
@@ -576,7 +431,65 @@ alt="AltixDev"
 
 <img
 src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
+alt="Portfólio de Wesley Barroso"
+/>
+
+</a>
+
+</div>
+
+---
+
+# 📌 Áreas de atuação
+
+<div align="center">
+
+| Área | Foco |
+|---|---|
+| 🌐 Web | Aplicações modernas e responsivas |
+| 🔌 APIs | Integrações e sistemas |
+| 🤖 Automação | Processos automatizados |
+| 📱 WhatsApp | Comunicação e automação |
+| 🏢 Empresarial | Sistemas personalizados |
+| 🚀 SaaS | Produtos digitais |
+| 🐳 DevOps | Containers e infraestrutura |
+| 🗄️ Dados | Bancos e processamento |
+
+</div>
+
+---
+
+# 🌎 Conecte-se comigo
+
+<div align="center">
+
+<a href="https://wesleybarroso.com">
+
+<img
+src="https://img.shields.io/badge/🌐%20PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"
 alt="Portfólio"
+/>
+
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://altixdev.com.br">
+
+<img
+src="https://img.shields.io/badge/🚀%20ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"
+alt="AltixDev"
+/>
+
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://github.com/Wesleybarroso">
+
+<img
+src="https://img.shields.io/badge/💻%20GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
+alt="GitHub"
 />
 
 </a>
