@@ -1,69 +1,167 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1200" height="700" viewBox="0 0 1200 700">
+
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
-<stop stop-color="#05080F"/><stop offset=".52" stop-color="#091421"/><stop offset="1" stop-color="#04070C"/>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700"
+gradientUnits="userSpaceOnUse">
+<stop stop-color="#05080F"/>
+<stop offset=".52" stop-color="#091421"/>
+<stop offset="1" stop-color="#04070C"/>
 </linearGradient>
+
 <linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0">
-<stop stop-color="#00E5FF"/><stop offset=".5" stop-color="#1683FF"/><stop offset="1" stop-color="#5B63FF"/>
+<stop stop-color="#00E5FF"/>
+<stop offset=".5" stop-color="#1683FF"/>
+<stop offset="1" stop-color="#5D63FF"/>
 </linearGradient>
-<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-<path d="M34 0H0V34" stroke="#5CA8FF" stroke-opacity=".022"/>
+
+<pattern id="grid" width="34" height="34"
+patternUnits="userSpaceOnUse">
+<path d="M34 0H0V34"
+stroke="#5CA8FF"
+stroke-opacity=".022"/>
 </pattern>
-<style>
-.ey{font:700 11px Arial,Helvetica,sans-serif;letter-spacing:3px;fill:#57DFFF}
-.h{font:800 31px Arial,Helvetica,sans-serif;fill:#F4F8FC}
-.sub{font:400 13px Arial,Helvetica,sans-serif;fill:#8EA2B9}
-.label{font:700 13px Arial,Helvetica,sans-serif;fill:#E6EEF6}
-.muted{font:400 10px Arial,Helvetica,sans-serif;fill:#71869F}
-.mono{font:700 10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#57E1FF}
-.pct{font:800 14px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F7FBFF}
-</style>
+
 </defs>
-<rect width="1200" height="700" rx="26" fill="url(#bg)"/>
-<rect width="1200" height="700" rx="26" fill="url(#grid)"/>
-<path d="M28 70V28H70M1130 28H1172V70M28 630V672H70M1130 672H1172V630" fill="none" stroke="url(#accent)" stroke-width="1.7"/>
-<text x="54" y="56" class="ey">ALTIXDEV / DEVELOPMENT PULSE</text>
-<text x="54" y="103" class="h">LINGUAGENS MAIS USADAS NO MÊS</text>
-<text x="54" y="130" class="sub">Participação percentual da sua atividade de código • 09/2026</text>
-<text x="1146" y="56" class="mono" text-anchor="end">LIVE / MONTHLY</text>
+
+<rect width="1200" height="700" rx="26"
+fill="url(#bg)"/>
+
+<rect width="1200" height="700" rx="26"
+fill="url(#grid)"/>
+
+<path d="M28 70V28H70
+M1130 28H1172V70
+M28 630V672H70
+M1130 672H1172V630"
+fill="none"
+stroke="url(#accent)"
+stroke-width="1.7"/>
+
+<text x="54" y="56"
+fill="#57DFFF"
+font-family="Arial"
+font-size="11"
+font-weight="700"
+letter-spacing="3">
+ALTIXDEV / DEVELOPMENT PULSE
+</text>
+
+<text x="54" y="103"
+fill="#F4F8FC"
+font-family="Arial"
+font-size="31"
+font-weight="800">
+LINGUAGENS MAIS USADAS NO MÊS
+</text>
+
+<text x="54" y="130"
+fill="#8EA2B9"
+font-family="Arial"
+font-size="13">
+Participação percentual da sua atividade de código • 09/2026
+</text>
+
+<text x="1146" y="56"
+fill="#57E1FF"
+font-family="monospace"
+font-size="10"
+font-weight="700"
+text-anchor="end">
+LIVE / MONTHLY
+</text>
 
 <g>
 <circle cx="295" cy="350" r="177" fill="#07111D" stroke="#17324D"/>
 <circle cx="295" cy="350" r="132" fill="none" stroke="#0C223B" stroke-width="36"/>
-<circle cx="295" cy="350" r="132" fill="none" stroke="#00E5FF" stroke-width="36" stroke-dasharray="395 434" transform="rotate(-90 295 350)"/>
-<circle cx="295" cy="350" r="132" fill="none" stroke="#1683FF" stroke-width="36" stroke-dasharray="215 614" stroke-dashoffset="-395" transform="rotate(-90 295 350)"/>
-<circle cx="295" cy="350" r="132" fill="none" stroke="#5B63FF" stroke-width="36" stroke-dasharray="120 709" stroke-dashoffset="-610" transform="rotate(-90 295 350)"/>
-<circle cx="295" cy="350" r="132" fill="none" stroke="#8B5CF6" stroke-width="36" stroke-dasharray="70 759" stroke-dashoffset="-730" transform="rotate(-90 295 350)"/>
+<circle cx="295" cy="350" r="132"
+fill="none" stroke="#00E5FF" stroke-width="36" stroke-linecap="butt"
+stroke-dasharray="829.38 0.00"
+stroke-dashoffset="-0.00"
+transform="rotate(-90 295 350)"/>
 <circle cx="295" cy="350" r="95" fill="#050C15" stroke="#17344F"/>
-<text x="295" y="335" text-anchor="middle" class="mono">TOP LANGUAGE</text>
-<text x="295" y="370" text-anchor="middle" class="h" style="font-size:25px">TypeScript</text>
-<text x="295" y="397" text-anchor="middle" class="muted">49.1%</text>
+<text x="295" y="335" text-anchor="middle" fill="#57E1FF"
+font-family="monospace" font-size="10" font-weight="700">TOP LANGUAGE</text>
+<text x="295" y="370" text-anchor="middle" fill="#F4F8FC"
+font-family="Arial" font-size="25" font-weight="800">Python</text>
+<text x="295" y="397" text-anchor="middle" fill="#71869F"
+font-family="Arial" font-size="11">100.0%</text>
 </g>
 
-<g transform="translate(535 184)">
-<text x="0" y="0" class="ey">RANKING / PARTICIPAÇÃO</text>
-<text x="0" y="25" class="sub">Percentual da atividade por linguagem</text>
-
-<circle cx="7" cy="63" r="5" fill="#00E5FF"/><text x="24" y="68" class="label">TypeScript</text><text x="520" y="68" text-anchor="end" class="pct">49.1%</text>
-<rect x="24" y="82" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="82" width="243" height="9" rx="4.5" fill="#00E5FF"/>
-
-<circle cx="7" cy="124" r="5" fill="#1683FF"/><text x="24" y="129" class="label">JavaScript</text><text x="520" y="129" text-anchor="end" class="pct">26.8%</text>
-<rect x="24" y="143" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="143" width="133" height="9" rx="4.5" fill="#1683FF"/>
-
-<circle cx="7" cy="185" r="5" fill="#5B63FF"/><text x="24" y="190" class="label">Go</text><text x="520" y="190" text-anchor="end" class="pct">14.7%</text>
-<rect x="24" y="204" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="204" width="73" height="9" rx="4.5" fill="#5B63FF"/>
-
-<circle cx="7" cy="246" r="5" fill="#8B5CF6"/><text x="24" y="251" class="label">Python</text><text x="520" y="251" text-anchor="end" class="pct">6.2%</text>
-<rect x="24" y="265" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="265" width="31" height="9" rx="4.5" fill="#8B5CF6"/>
+<g>
+<text x="535" y="184" fill="#57DFFF" font-family="Arial"
+font-size="11" font-weight="700" letter-spacing="3">
+RANKING / PARTICIPAÇÃO
+</text>
+<text x="535" y="209" fill="#8EA2B9" font-family="Arial" font-size="13">
+Percentual da atividade por linguagem
+</text>
+<g>
+<circle cx="547" cy="185" r="5" fill="#00E5FF"/>
+<text x="565" y="190" fill="#E6EDF5"
+font-family="Arial" font-size="14" font-weight="700">Python</text>
+<text x="1060" y="190" text-anchor="end" fill="#F7FBFF"
+font-family="monospace" font-size="14" font-weight="800">100.0%</text>
+<rect x="565" y="204" width="496" height="9" rx="4.5" fill="#0C2440"/>
+<rect x="565" y="204" width="496.00" height="9" rx="4.5" fill="#00E5FF"/>
+</g>
 </g>
 
-<rect x="540" y="455" width="520" height="92" rx="18" fill="#07111D" stroke="#18344F"/>
-<text x="566" y="485" class="mono">MÉTRICA</text>
-<text x="566" y="510" class="label">Linhas adicionadas + removidas nos commits do mês</text>
-<text x="566" y="529" class="muted">O ranking é recalculado automaticamente pelo GitHub Actions.</text>
+<rect x="540" y="492"
+width="520" height="82"
+rx="18"
+fill="#07111D"
+stroke="#18344F"/>
 
-<line x1="54" y1="600" x2="1146" y2="600" stroke="#17334F"/>
-<text x="54" y="624" class="muted">Percentuais somam 100% das linguagens detectadas no período.</text>
-<text x="54" y="644" class="muted">Atualização automática a cada execução do workflow.</text>
-<text x="1146" y="644" class="mono" text-anchor="end">ALTIXDEV</text>
+<text x="566" y="520"
+fill="#57E1FF"
+font-family="monospace"
+font-size="10"
+font-weight="700">
+MÉTRICA
+</text>
+
+<text x="566" y="545"
+fill="#E6EDF5"
+font-family="Arial"
+font-size="12"
+font-weight="700">
+Linhas adicionadas + removidas nos commits do mês
+</text>
+
+<text x="566" y="563"
+fill="#71869F"
+font-family="Arial"
+font-size="10">
+27 commits • 1 repositórios com atividade • 39 analisados
+</text>
+
+<text x="54" y="620"
+fill="#71869F"
+font-family="Arial"
+font-size="10">
+1491 linhas alteradas • ranking por participação percentual
+</text>
+
+<text x="1146" y="620"
+fill="#57E1FF"
+font-family="monospace"
+font-size="10"
+font-weight="700"
+text-anchor="end">
+GITHUB ACTIONS
+</text>
+
+<line x1="54" y1="635"
+x2="1146" y2="635"
+stroke="#17334F"/>
+
+<text x="54" y="657"
+fill="#71869F"
+font-family="Arial"
+font-size="10">
+Atualizado automaticamente pelo workflow.
+</text>
+
 </svg>
