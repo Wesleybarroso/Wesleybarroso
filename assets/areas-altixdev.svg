@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050912"/>
+      <stop offset="0.55" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#050912"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00d9ff"/>
+      <stop offset="0.5" stop-color="#1683ff"/>
+      <stop offset="1" stop-color="#0066ff"/>
+    </linearGradient>
+
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7df9ff"/>
+      <stop offset="1" stop-color="#1683ff"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1683ff" stroke-opacity=".055"/>
+    </pattern>
+
+    <style>
+      .title{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#f1f5f9}
+      .text{font-family:Arial,Helvetica,sans-serif;fill:#94a3b8}
+      .small{font-family:monospace;fill:#38bdf8}
+      .cardTitle{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#e2e8f0}
+      .cardText{font-family:Arial,Helvetica,sans-serif;fill:#94a3b8}
+      .card{fill:#080f1b;stroke:#1e334d;stroke-width:1}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="720" rx="28" fill="url(#grid)"/>
+
+  <!-- Ambient lights -->
+  <circle cx="80" cy="90" r="110" fill="#0066ff" opacity=".10" filter="url(#softGlow)">
+    <animate attributeName="opacity" values=".06;.15;.06" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1110" cy="610" r="130" fill="#00d9ff" opacity=".08" filter="url(#softGlow)">
+    <animate attributeName="opacity" values=".05;.13;.05" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Frame -->
+  <path d="M30 75V30H75 M1125 30H1170V75 M30 645V690H75 M1125 690H1170V645"
+        fill="none" stroke="url(#blue)" stroke-width="2"/>
+
+  <!-- Header -->
+  <text x="60" y="60" class="small" font-size="12" letter-spacing="3">
+    ALTIXDEV • CAPABILIDADES
+  </text>
+
+  <text x="60" y="115" class="title" font-size="32">
+    O QUE EU CONSTRUO
+  </text>
+
+  <text x="60" y="145" class="text" font-size="14">
+    Software, automação e infraestrutura para transformar ideias em soluções.
+  </text>
+
+  <text x="1140" y="110" class="small" font-size="11" text-anchor="end">
+    SYSTEM / READY
+  </text>
+
+  <!-- Cards -->
+  <g>
+    <!-- Card 1 -->
+    <rect class="card" x="50" y="190" width="350" height="190" rx="18"/>
+    <rect x="50" y="190" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="92" cy="235" r="27" fill="#061a37" stroke="#1683ff" stroke-opacity=".6"/>
+    <text x="92" y="245" text-anchor="middle" font-size="27">⌘</text>
+    <text x="135" y="231" class="cardTitle" font-size="19">Desenvolvimento Web</text>
+    <text x="78" y="285" class="cardText" font-size="13">Aplicações modernas, responsivas</text>
+    <text x="78" y="307" class="cardText" font-size="13">e focadas em experiência do usuário.</text>
+    <text x="78" y="350" class="small" font-size="10">WEB / FRONT-END</text>
+
+    <!-- Card 2 -->
+    <rect class="card" x="425" y="190" width="350" height="190" rx="18"/>
+    <rect x="425" y="190" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values="1;.4;1" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="467" cy="235" r="27" fill="#061a37" stroke="#00d9ff" stroke-opacity=".6"/>
+    <text x="467" y="242" text-anchor="middle" class="small" font-size="19">&lt;/&gt;</text>
+    <text x="510" y="231" class="cardTitle" font-size="19">APIs</text>
+    <text x="453" y="285" class="cardText" font-size="13">REST, autenticação, webhooks</text>
+    <text x="453" y="307" class="cardText" font-size="13">e integrações entre sistemas.</text>
+    <text x="453" y="350" class="small" font-size="10">API / BACK-END</text>
+
+    <!-- Card 3 -->
+    <rect class="card" x="800" y="190" width="350" height="190" rx="18"/>
+    <rect x="800" y="190" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="4.2s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="842" cy="235" r="27" fill="#061a37" stroke="#1683ff" stroke-opacity=".6"/>
+    <text x="842" y="244" text-anchor="middle" font-size="25">⚙</text>
+    <text x="885" y="231" class="cardTitle" font-size="19">Automação</text>
+    <text x="828" y="285" class="cardText" font-size="13">Processos automatizados e integrações</text>
+    <text x="828" y="307" class="cardText" font-size="13">para reduzir tarefas manuais.</text>
+    <text x="828" y="350" class="small" font-size="10">AUTOMATION / FLOW</text>
+
+    <!-- Card 4 -->
+    <rect class="card" x="50" y="405" width="350" height="190" rx="18"/>
+    <rect x="50" y="405" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values="1;.4;1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="92" cy="450" r="27" fill="#061a37" stroke="#00d9ff" stroke-opacity=".6"/>
+    <text x="92" y="459" text-anchor="middle" font-size="24">◈</text>
+    <text x="135" y="446" class="cardTitle" font-size="19">WhatsApp</text>
+    <text x="78" y="500" class="cardText" font-size="13">Integrações, automações, atendimento</text>
+    <text x="78" y="522" class="cardText" font-size="13">e gerenciamento de sessões.</text>
+    <text x="78" y="565" class="small" font-size="10">MESSAGING / INTEGRATION</text>
+
+    <!-- Card 5 -->
+    <rect class="card" x="425" y="405" width="350" height="190" rx="18"/>
+    <rect x="425" y="405" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values=".45;1;.45" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="467" cy="450" r="27" fill="#061a37" stroke="#1683ff" stroke-opacity=".6"/>
+    <text x="467" y="458" text-anchor="middle" font-size="23">▦</text>
+    <text x="510" y="446" class="cardTitle" font-size="19">Sistemas Empresariais</text>
+    <text x="453" y="500" class="cardText" font-size="13">Sistemas administrativos, dashboards</text>
+    <text x="453" y="522" class="cardText" font-size="13">e soluções personalizadas.</text>
+    <text x="453" y="565" class="small" font-size="10">BUSINESS / SYSTEMS</text>
+
+    <!-- Card 6 -->
+    <rect class="card" x="800" y="405" width="350" height="190" rx="18"/>
+    <rect x="800" y="405" width="350" height="2" rx="1" fill="url(#blue)">
+      <animate attributeName="opacity" values="1;.4;1" dur="4.6s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="842" cy="450" r="27" fill="#061a37" stroke="#00d9ff" stroke-opacity=".6"/>
+    <text x="842" y="458" text-anchor="middle" font-size="24">↗</text>
+    <text x="885" y="446" class="cardTitle" font-size="19">SaaS</text>
+    <text x="828" y="500" class="cardText" font-size="13">Produtos digitais, plataformas, planos</text>
+    <text x="828" y="522" class="cardText" font-size="13">e aplicações escaláveis.</text>
+    <text x="828" y="565" class="small" font-size="10">PRODUCT / SCALE</text>
+  </g>
+
+  <!-- Bottom status -->
+  <line x1="60" y1="635" x2="1140" y2="635" stroke="#1683ff" stroke-opacity=".18"/>
+  <circle cx="64" cy="660" r="4" fill="#00d9ff" filter="url(#glow)">
+    <animate attributeName="opacity" values=".3;1;.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="78" y="664" class="small" font-size="10">
+    SYSTEM ONLINE • BUILDING DIGITAL SOLUTIONS
+  </text>
+  <text x="1140" y="664" class="small" font-size="10" text-anchor="end">
+    ALTIXDEV
+  </text>
+</svg>
