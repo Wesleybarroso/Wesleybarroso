@@ -47,7 +47,7 @@ alt="Áreas de atuação da AltixDev"
 <div align="center">
 
 <img
-src="./assets/tech-stack-v2.svg"
+src="./assets/tech-stack-v3-original-logos-fixed.svg"
 width="100%"
 alt="Tecnologias utilizadas por Wesley Barroso"
 />
@@ -163,7 +163,7 @@ Criação de produtos digitais e plataformas preparadas para crescimento.
 - APIs
 - Dashboards
 - Integrações de pagamento
-- Monitoramento de utilização
+- Monitoramento
 
 ---
 
@@ -186,9 +186,9 @@ A **AltixDev** é minha marca voltada para desenvolvimento de software, produtos
 - Produtos digitais
 - SaaS
 
-🌐 **Website:**
+<br>
 
-[![AltixDev](https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://altixdev.com.br)
+[![AltixDev](https://img.shields.io/badge/ACESSAR_ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://altixdev.com.br)
 
 ---
 
@@ -196,7 +196,7 @@ A **AltixDev** é minha marca voltada para desenvolvimento de software, produtos
 
 ### Software Engineer & Full Stack Developer
 
-Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
+Meu portfólio pessoal reúne projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
 
 **Conteúdos:**
 
@@ -207,9 +207,9 @@ Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabal
 - Desenvolvimento
 - Trabalhos
 
-🌐 **Portfólio:**
+<br>
 
-[![Portfólio](https://img.shields.io/badge/WESLEYBARROSO.COM-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wesleybarroso.com)
+[![Portfólio](https://img.shields.io/badge/ACESSAR_PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wesleybarroso.com)
 
 ---
 
@@ -281,51 +281,39 @@ alt="Processo de desenvolvimento de Wesley Barroso"
 
 # 🎯 Atualmente
 
-Meu foco está em construir soluções que unam:
+Meu foco está em construir soluções que unam **software, automação, integrações e infraestrutura**.
 
-- 🚀 Produtos digitais
-- 💻 Sistemas completos
-- 🔌 APIs escaláveis
-- 🤖 Automação
-- 📱 Integrações com WhatsApp
-- ☁️ Infraestrutura
-- 🧠 Arquitetura de software
-- 🔐 Segurança
-- 📊 Sistemas orientados a dados
+### 🚀 Desenvolvimento
 
----
+- Criar produtos digitais
+- Desenvolver sistemas completos
+- Criar aplicações web modernas
+- Desenvolver APIs escaláveis
+- Construir aplicações SaaS
 
-# 🌎 Ecossistema
+### 🤖 Automação & Integrações
 
-<div align="center">
+- Automatizar processos
+- Desenvolver integrações com WhatsApp
+- Criar fluxos automatizados
+- Integrar APIs externas
+- Desenvolver sistemas de atendimento
 
-<img
-src="./assets/social-links-v2.svg"
-width="100%"
-alt="Links e redes sociais de Wesley Barroso"
-/>
+### ☁️ Infraestrutura
 
-</div>
+- Melhorar ambientes de produção
+- Trabalhar com Docker
+- Automatizar deploys
+- Melhorar arquitetura
+- Criar ambientes escaláveis
 
-<br>
+### 🧠 Engenharia de Software
 
-<div align="center">
-
-[![Portfólio](https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge)](https://wesleybarroso.com)
-
-&nbsp;
-
-[![AltixDev](https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge)](https://altixdev.com.br)
-
-&nbsp;
-
-[![GitHub](https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
-
-&nbsp;
-
-[![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/wesley.lte)
-
-</div>
+- Aprimorar arquitetura de software
+- Criar sistemas mais seguros
+- Melhorar performance
+- Trabalhar com microsserviços
+- Desenvolver soluções orientadas a dados
 
 ---
 
@@ -343,6 +331,36 @@ alt="Links e redes sociais de Wesley Barroso"
 | 🚀 SaaS | Produtos digitais |
 | 🐳 DevOps | Containers e infraestrutura |
 | 🗄️ Dados | Bancos e processamento |
+
+</div>
+
+---
+
+# 🌎 Conecte-se comigo
+
+<div align="center">
+
+<img
+src="./assets/social-links-clean.svg"
+width="100%"
+alt="Links e redes sociais de Wesley Barroso"
+/>
+
+<br><br>
+
+[![Portfólio](https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge)](https://wesleybarroso.com)
+
+&nbsp;&nbsp;
+
+[![AltixDev](https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge)](https://altixdev.com.br)
+
+&nbsp;&nbsp;
+
+[![GitHub](https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
+
+&nbsp;&nbsp;
+
+[![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/wesley.lte)
 
 </div>
 
