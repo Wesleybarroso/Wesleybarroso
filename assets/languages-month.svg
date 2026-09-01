@@ -49,6 +49,4 @@
 <line x1="54" y1="620" x2="1146" y2="620" stroke="#17334F"/>
 <text x="54" y="645" fill="#71869F" font-family="Arial,Helvetica,sans-serif" font-size="10">As porcentagens somam 100% da atividade detectada no período.</text>
 <text x="1146" y="645" fill="#57E1FF" font-family="monospace" font-size="10" font-weight="700" text-anchor="end">GITHUB ACTIONS</text>
-
-<text id="update-timestamp" x="50%" y="98%" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#888888">Última atualização: 01/09/2026 20:02:32</text>
 </svg>
