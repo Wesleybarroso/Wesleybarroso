@@ -69,7 +69,7 @@ alt="Linguagens mais utilizadas no mês atual"
 <br>
 
 <sub>
-Atualizado automaticamente pelo GitHub Actions com base nos commits e arquivos alterados no mês atual.
+Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvolvimento do mês atual.
 </sub>
 
 </div>
@@ -272,48 +272,40 @@ Gosto de construir aplicações pensando em organização, manutenção, seguran
 <img
 src="./assets/workflow-developer-v3.svg"
 width="100%"
-alt="Processo de desenvolvimento de Wesley Barroso"
+alt="Como trabalho, ciclo de desenvolvimento e painel do desenvolvedor"
 />
 
 </div>
 
+> **Nota:** o `workflow-developer-v3.svg` já possui visualmente as áreas de **Como trabalho**, **Ciclo de Desenvolvimento**, **Painel do Desenvolvedor** e **Atualmente**. Por isso elas não são repetidas em Markdown abaixo do SVG.
+
 ---
 
-# 🎯 Atualmente
+# 🌎 Conecte-se comigo
 
-Meu foco está em construir soluções que unam **software, automação, integrações e infraestrutura**.
+<div align="center">
 
-### 🚀 Desenvolvimento
+<img
+src="./assets/social-links-clean.svg"
+width="100%"
+alt="Links e redes sociais de Wesley Barroso"
+/>
 
-- Criar produtos digitais
-- Desenvolver sistemas completos
-- Criar aplicações web modernas
-- Desenvolver APIs escaláveis
-- Construir aplicações SaaS
+</div>
 
-### 🤖 Automação & Integrações
+<br>
 
-- Automatizar processos
-- Desenvolver integrações com WhatsApp
-- Criar fluxos automatizados
-- Integrar APIs externas
-- Desenvolver sistemas de atendimento
+<div align="center">
 
-### ☁️ Infraestrutura
+[🌐 **Portfólio**](https://wesleybarroso.com)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[🚀 **AltixDev**](https://altixdev.com.br)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[💻 **GitHub**](https://github.com/Wesleybarroso)
+&nbsp;&nbsp;•&nbsp;&nbsp;
+[📸 **Instagram**](https://instagram.com/wesley.lte)
 
-- Melhorar ambientes de produção
-- Trabalhar com Docker
-- Automatizar deploys
-- Melhorar arquitetura
-- Criar ambientes escaláveis
-
-### 🧠 Engenharia de Software
-
-- Aprimorar arquitetura de software
-- Criar sistemas mais seguros
-- Melhorar performance
-- Trabalhar com microsserviços
-- Desenvolver soluções orientadas a dados
+</div>
 
 ---
 
@@ -331,36 +323,6 @@ Meu foco está em construir soluções que unam **software, automação, integra
 | 🚀 SaaS | Produtos digitais |
 | 🐳 DevOps | Containers e infraestrutura |
 | 🗄️ Dados | Bancos e processamento |
-
-</div>
-
----
-
-# 🌎 Conecte-se comigo
-
-<div align="center">
-
-<img
-src="./assets/social-links-clean.svg"
-width="100%"
-alt="Links e redes sociais de Wesley Barroso"
-/>
-
-<br><br>
-
-[![Portfólio](https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge)](https://wesleybarroso.com)
-
-&nbsp;&nbsp;
-
-[![AltixDev](https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge)](https://altixdev.com.br)
-
-&nbsp;&nbsp;
-
-[![GitHub](https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
-
-&nbsp;&nbsp;
-
-[![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/wesley.lte)
 
 </div>
 
@@ -396,7 +358,7 @@ alt="Links e redes sociais de Wesley Barroso"
 
 `Software Engineer` • `Full Stack Developer`
 
-<br><br>
+<br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
 
