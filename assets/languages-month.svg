@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset=".55" stop-color="#071A38"/><stop offset="1" stop-color="#020617"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00D9FF"/><stop offset=".5" stop-color="#1683FF"/><stop offset="1" stop-color="#0066FF"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#1683FF" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="620" rx="22" fill="url(#bg)"/><rect width="1200" height="620" rx="22" fill="url(#grid)"/>
+<path d="M25 70V25H70M1130 25H1175V70M25 550V595H70M1130 595H1175V550" stroke="url(#line)" stroke-width="2"/>
+<text x="54" y="58" fill="#7DD3FC" font-family="Arial" font-size="13" letter-spacing="3">ALTIXDEV • DEVELOPMENT PULSE</text>
+<text x="54" y="105" fill="#fff" font-family="Arial" font-size="31" font-weight="800">LINGUAGENS EM MOVIMENTO</text>
+<text x="54" y="132" fill="#64748B" font-family="Arial" font-size="13">Atividade de desenvolvimento • mês atual</text>
+<text x="1146" y="105" fill="#00D9FF" font-family="monospace" font-size="13" text-anchor="end">AUTO / LIVE</text>
+<text x="54" y="205" fill="#CBD5E1" font-family="Arial" font-size="16">Aguardando a primeira execução do GitHub Actions...</text>
+<text x="54" y="232" fill="#64748B" font-family="Arial" font-size="12">O ranking real será gerado automaticamente.</text>
+<rect x="54" y="270" width="1092" height="18" rx="9" fill="#0B2346"/>
+<rect x="54" y="270" width="300" height="18" rx="9" fill="url(#line)" filter="url(#glow)"/>
+<text x="54" y="330" fill="#7DD3FC" font-family="Arial" font-size="14">Métrica: linhas adicionadas + removidas por linguagem</text>
+<text x="54" y="357" fill="#64748B" font-family="Arial" font-size="12">Período: mês atual • atualização diária</text>
+<text x="1146" y="586" fill="#00D9FF" font-family="monospace" font-size="10" text-anchor="end">GITHUB ACTIONS</text>
+</svg>
