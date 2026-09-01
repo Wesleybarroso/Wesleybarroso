@@ -12,12 +12,11 @@ OUT = Path("assets/languages-month.svg")
 
 HEADERS = {
     "Accept": "application/vnd.github+json",
-    "X-GitHub-Api-Version": "2022-11-28",
+    "X-GitHub-Api-Version": "2026-03-10",
 }
 
 if TOKEN:
     HEADERS["Authorization"] = f"Bearer {TOKEN}"
-
 
 EXTENSIONS = {
     ".ts": "TypeScript",
@@ -54,7 +53,6 @@ EXTENSIONS = {
     ".zsh": "Shell",
 }
 
-
 ICONS = {
     "TypeScript": "TS",
     "JavaScript": "JS",
@@ -82,61 +80,75 @@ ICONS = {
 }
 
 
+class GitHubAPIError(RuntimeError):
+    pass
+
+
 def api(url, params=None):
-
+    """GET GitHub API. Empty/unavailable repositories are treated as skippable."""
     for attempt in range(5):
-
         response = requests.get(
             url,
             headers=HEADERS,
             params=params,
-            timeout=30
+            timeout=30,
         )
 
         if response.status_code == 200:
             return response.json()
 
+        # GitHub returns 409 for an empty/unavailable Git repository.
+        # We deliberately return None so the caller can skip it and continue.
+        if response.status_code == 409:
+            message = ""
+            try:
+                message = response.json().get("message", "")
+            except ValueError:
+                pass
+
+            print(f"SKIP 409: {url} — {message or 'repository unavailable'}")
+            return None
+
         if response.status_code in (403, 429):
+            retry_after = response.headers.get("Retry-After")
 
-            retry = response.headers.get("Retry-After")
+            if retry_after and retry_after.isdigit():
+                wait = int(retry_after)
+            else:
+                wait = min(2 ** attempt, 30)
 
-            wait = (
-                int(retry)
-                if retry and retry.isdigit()
-                else min(2 ** attempt, 30)
+            print(
+                f"RATE LIMIT {response.status_code}: "
+                f"waiting {wait}s..."
             )
-
             time.sleep(wait)
-
             continue
 
         if response.status_code == 404:
+            print(f"SKIP 404: {url}")
             return None
 
-        raise RuntimeError(
+        raise GitHubAPIError(
             f"GitHub API {response.status_code}: "
-            f"{response.text[:300]}"
+            f"{response.text[:500]}"
         )
 
-    raise RuntimeError(
-        "GitHub API: limite de tentativas atingido."
+    raise GitHubAPIError(
+        f"GitHub API retry limit reached: {url}"
     )
 
 
 def pages(url, params=None):
-
     page = 1
 
     while True:
-
         current = dict(params or {})
-
         current.update({
             "per_page": 100,
-            "page": page
+            "page": page,
         })
 
-        data = api(url, current) or []
+        data = api(url, current)
 
         if not data:
             return
@@ -150,7 +162,6 @@ def pages(url, params=None):
 
 
 def escape(value):
-
     return (
         str(value)
         .replace("&", "&amp;")
@@ -161,159 +172,137 @@ def escape(value):
 
 
 def main():
-
     now = datetime.now(timezone.utc)
-
-    start = datetime(
+    month_start = datetime(
         now.year,
         now.month,
         1,
-        tzinfo=timezone.utc
+        tzinfo=timezone.utc,
     )
 
-    since = start.isoformat().replace(
+    since = month_start.isoformat().replace(
         "+00:00",
-        "Z"
+        "Z",
     )
 
     until = now.isoformat().replace(
         "+00:00",
-        "Z"
+        "Z",
     )
 
     totals = defaultdict(int)
-
-    commits = 0
-    repositories = 0
+    commits_count = 0
+    repos_found = 0
+    repos_with_history = 0
+    empty_or_unavailable = 0
 
     repos = pages(
         f"https://api.github.com/users/{USER}/repos",
         {
             "type": "owner",
             "sort": "updated",
-            "direction": "desc"
-        }
+            "direction": "desc",
+        },
     )
 
     for repo in repos:
-
         if repo.get("fork"):
             continue
 
-        repositories += 1
+        repos_found += 1
 
         full_name = repo["full_name"]
-
         commits_url = (
             f"https://api.github.com/repos/"
             f"{full_name}/commits"
         )
+
+        repository_had_commits = False
 
         for commit in pages(
             commits_url,
             {
                 "author": USER,
                 "since": since,
-                "until": until
-            }
+                "until": until,
+            },
         ):
+            repository_had_commits = True
 
             sha = commit.get("sha")
-
             if not sha:
                 continue
 
-            detail = api(
-                f"{commits_url}/{sha}"
-            )
-
+            detail = api(f"{commits_url}/{sha}")
             if not detail:
+                empty_or_unavailable += 1
                 continue
 
-            commits += 1
+            commits_count += 1
 
             for file in detail.get("files", []):
+                filename = file.get("filename", "")
+                extension = Path(filename.lower()).suffix
 
-                filename = file.get(
-                    "filename",
-                    ""
-                )
-
-                extension = Path(
-                    filename.lower()
-                ).suffix
-
-                language = EXTENSIONS.get(
-                    extension
-                )
-
+                language = EXTENSIONS.get(extension)
                 if not language:
                     continue
 
                 changed = (
                     int(file.get("additions", 0))
-                    +
-                    int(file.get("deletions", 0))
+                    + int(file.get("deletions", 0))
                 )
 
                 totals[language] += changed
 
+        if repository_had_commits:
+            repos_with_history += 1
+
     ranked = sorted(
         totals.items(),
         key=lambda item: item[1],
-        reverse=True
+        reverse=True,
     )[:8]
 
-    total = sum(
-        value
-        for _, value in ranked
+    total_activity = sum(
+        value for _, value in ranked
     )
 
-    month = start.strftime("%m/%Y")
+    month = month_start.strftime("%m/%Y")
 
-    if total == 0:
-
+    if total_activity == 0:
         rows = """
         <text x="54" y="205"
               fill="#CBD5E1"
               font-family="Arial"
               font-size="16">
-            Nenhuma atividade de código detectada neste mês.
+          Nenhuma atividade de código detectada neste mês.
         </text>
-
         <text x="54" y="232"
               fill="#64748B"
               font-family="Arial"
               font-size="12">
-            O gráfico será preenchido automaticamente quando houver commits.
+          O gráfico será preenchido automaticamente quando houver commits.
         </text>
         """
-
     else:
-
         rows = ""
-
         y = 185
 
-        for name, value in ranked:
-
+        for language, value in ranked:
             percentage = (
-                value / total
+                value / total_activity
             ) * 100
 
-            width = max(
+            bar_width = max(
                 8,
-                820 * percentage / 100
+                820 * percentage / 100,
             )
 
-            icon = ICONS.get(
-                name,
-                "++"
-            )
+            icon = ICONS.get(language, "++")
 
             rows += f"""
             <g>
-
               <circle
                 cx="40"
                 cy="{y + 14}"
@@ -343,7 +332,7 @@ def main():
                 font-size="14"
                 font-weight="700"
               >
-                {escape(name)}
+                {escape(language)}
               </text>
 
               <rect
@@ -358,7 +347,7 @@ def main():
               <rect
                 x="62"
                 y="{y + 15}"
-                width="{width:.2f}"
+                width="{bar_width:.2f}"
                 height="16"
                 rx="8"
                 fill="url(#line)"
@@ -375,61 +364,44 @@ def main():
               >
                 {percentage:.1f}%
               </text>
-
             </g>
             """
 
             y += 52
 
-    svg = f"""<svg
-xmlns="http://www.w3.org/2000/svg"
-width="1200"
-height="620"
-viewBox="0 0 1200 620">
+    footer = (
+        f"{commits_count} commits • "
+        f"{repos_with_history} repositórios com histórico • "
+        f"{repos_found} repositórios analisados"
+    )
+
+    if empty_or_unavailable:
+        footer += (
+            f" • {empty_or_unavailable} respostas 409/indisponíveis ignoradas"
+        )
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+width="1200" height="620" viewBox="0 0 1200 620">
 
 <defs>
 
-<linearGradient
-id="bg"
-x1="0"
-y1="0"
-x2="1"
-y2="1">
+<linearGradient id="bg"
+x1="0" y1="0" x2="1" y2="1">
 
-<stop
-stop-color="#020617"/>
-
-<stop
-offset=".55"
-stop-color="#071A38"/>
-
-<stop
-offset="1"
-stop-color="#020617"/>
+<stop stop-color="#020617"/>
+<stop offset=".55" stop-color="#071A38"/>
+<stop offset="1" stop-color="#020617"/>
 
 </linearGradient>
 
+<linearGradient id="line"
+x1="0" y1="0" x2="1" y2="0">
 
-<linearGradient
-id="line"
-x1="0"
-y1="0"
-x2="1"
-y2="0">
-
-<stop
-stop-color="#00D9FF"/>
-
-<stop
-offset=".5"
-stop-color="#1683FF"/>
-
-<stop
-offset="1"
-stop-color="#0066FF"/>
+<stop stop-color="#00D9FF"/>
+<stop offset=".5" stop-color="#1683FF"/>
+<stop offset="1" stop-color="#0066FF"/>
 
 </linearGradient>
-
 
 <filter id="glow">
 
@@ -439,19 +411,14 @@ result="b"/>
 
 <feMerge>
 
-<feMergeNode
-in="b"/>
-
-<feMergeNode
-in="SourceGraphic"/>
+<feMergeNode in="b"/>
+<feMergeNode in="SourceGraphic"/>
 
 </feMerge>
 
 </filter>
 
-
-<pattern
-id="grid"
+<pattern id="grid"
 width="32"
 height="32"
 patternUnits="userSpaceOnUse">
@@ -465,20 +432,17 @@ stroke-opacity=".08"/>
 
 </defs>
 
-
 <rect
 width="1200"
 height="620"
 rx="22"
 fill="url(#bg)"/>
 
-
 <rect
 width="1200"
 height="620"
 rx="22"
 fill="url(#grid)"/>
-
 
 <path
 d="M25 70V25H70
@@ -487,7 +451,6 @@ M25 550V595H70
 M1130 595H1175V550"
 stroke="url(#line)"
 stroke-width="2"/>
-
 
 <text
 x="54"
@@ -501,7 +464,6 @@ ALTIXDEV • DEVELOPMENT PULSE
 
 </text>
 
-
 <text
 x="54"
 y="105"
@@ -514,7 +476,6 @@ LINGUAGENS EM MOVIMENTO
 
 </text>
 
-
 <text
 x="54"
 y="132"
@@ -525,7 +486,6 @@ font-size="13">
 Atividade de desenvolvimento • {month}
 
 </text>
-
 
 <text
 x="1146"
@@ -539,9 +499,7 @@ AUTO / LIVE
 
 </text>
 
-
 {rows}
-
 
 <line
 x1="54"
@@ -551,18 +509,16 @@ y2="560"
 stroke="#1683FF"
 stroke-opacity=".25"/>
 
-
 <text
 x="54"
 y="586"
 fill="#64748B"
 font-family="Arial"
-font-size="11">
+font-size="10">
 
-{commits} commits • {repositories} repositórios analisados
+{escape(footer)}
 
 </text>
-
 
 <text
 x="1146"
@@ -581,32 +537,25 @@ GITHUB ACTIONS
 
     OUT.parent.mkdir(
         parents=True,
-        exist_ok=True
+        exist_ok=True,
     )
 
     OUT.write_text(
         svg,
-        encoding="utf-8"
+        encoding="utf-8",
     )
 
-    print(
-        "Development Pulse atualizado."
-    )
-
-    print(
-        "Repositórios:",
-        repositories
-    )
-
-    print(
-        "Commits:",
-        commits
-    )
-
-    print(
-        "Ranking:",
-        ranked
-    )
+    print("")
+    print("========================================")
+    print("Development Pulse atualizado")
+    print("========================================")
+    print("Usuário:", USER)
+    print("Mês:", month)
+    print("Repositórios analisados:", repos_found)
+    print("Repositórios com histórico:", repos_with_history)
+    print("Commits:", commits_count)
+    print("Ranking:", ranked)
+    print("========================================")
 
 
 if __name__ == "__main__":
