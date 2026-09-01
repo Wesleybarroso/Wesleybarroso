@@ -464,21 +464,27 @@ Estou focado em:
 
 ---
 
-# 📊 Estatísticas do GitHub
+## 📊 Estatísticas do GitHub
 
 <div align="center">
 
-<img
-src="https://github-readme-stats.vercel.app/api?username=Wesleybarroso&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
-height="180"
-alt="Estatísticas do GitHub"
-/>
+<a href="https://github.com/Wesleybarroso">
+<img src="https://github-readme-stats.vercel.app/api?username=Wesleybarroso&show_icons=true&count_private=true&hide_border=true&theme=transparent&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="Estatísticas do GitHub" height="180" />
+</a>
 
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wesleybarroso&layout=compact&theme=tokyonight&hide_border=true"
-height="180"
-alt="Linguagens mais utilizadas"
-/>
+<a href="https://github.com/Wesleybarroso">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wesleybarroso&layout=compact&hide_border=true&theme=transparent&title_color=58a6ff&text_color=c9d1d9" alt="Linguagens mais utilizadas" height="180" />
+</a>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<a href="https://github.com/Wesleybarroso?tab=repositories">
+<img src="https://img.shields.io/badge/Ver%20meus%20reposit%C3%B3rios-161b22?style=for-the-badge&logo=github&logoColor=white" alt="Ver meus repositórios" />
+</a>
 
 </div>
 
