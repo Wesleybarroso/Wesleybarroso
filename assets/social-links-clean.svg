@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05080F"/>
+      <stop offset=".55" stop-color="#0A1422"/>
+      <stop offset="1" stop-color="#04070C"/>
+    </linearGradient>
+
+    <linearGradient id="blue" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset=".55" stop-color="#1683FF"/>
+      <stop offset="1" stop-color="#5268FF"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(1010 110) rotate(90) scale(190)">
+      <stop stop-color="#00D9FF" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#00D9FF" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#5CA8FF" stroke-opacity=".028"/>
+    </pattern>
+
+    <style>
+      .ey{font:700 11px Arial,Helvetica,sans-serif;letter-spacing:3px;fill:#56DAFF}
+      .h{font:800 31px Arial,Helvetica,sans-serif;fill:#F4F8FD}
+      .sub{font:400 13px Arial,Helvetica,sans-serif;fill:#8FA2B8}
+      .tag{font:700 9px Arial,Helvetica,sans-serif;letter-spacing:2px;fill:#55718E}
+      .title{font:800 16px Arial,Helvetica,sans-serif;fill:#EEF4FB}
+      .handle{font:600 12px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#62E5FF}
+      .copy{font:400 11px Arial,Helvetica,sans-serif;fill:#8499B0}
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="520" rx="28" fill="url(#grid)"/>
+
+  <ellipse cx="1000" cy="105" rx="260" ry="180" fill="url(#halo)" filter="url(#soft)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <path d="M30 70V30H70M1130 30H1170V70M30 450V490H70M1130 490H1170V450"
+        fill="none" stroke="url(#blue)" stroke-width="1.7"/>
+
+  <text x="54" y="55" class="ey">ALTIXDEV / CONNECT</text>
+  <text x="54" y="101" class="h">Onde encontrar meu trabalho</text>
+  <text x="54" y="129" class="sub">Portfólio, empresa, código e conteúdo.</text>
+  <text x="1146" y="55" class="handle" text-anchor="end">LINKS / ONLINE</text>
+
+  <!-- Connector -->
+  <line x1="70" y1="215" x2="70" y2="395" stroke="#15314D" stroke-width="2"/>
+  <line x1="70" y1="215" x2="70" y2="395" stroke="url(#blue)" stroke-width="2" stroke-dasharray="3 16">
+    <animate attributeName="stroke-dashoffset" from="0" to="-76" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Portfolio -->
+  <g>
+    <circle cx="70" cy="205" r="25" fill="#071624" stroke="#1D7CFF" stroke-width="1.8"/>
+    <!-- simple globe line icon -->
+    <circle cx="70" cy="205" r="10" fill="none" stroke="#7DEAFF" stroke-width="1.7"/>
+    <path d="M60 205H80M70 195C66 199 66 211 70 215M70 195C74 199 74 211 70 215"
+          fill="none" stroke="#7DEAFF" stroke-width="1.3"/>
+    <rect x="120" y="164" width="980" height="82" rx="18" fill="#07101B" stroke="#17334E"/>
+    <rect x="120" y="164" width="4" height="82" rx="2" fill="#1683FF"/>
+    <text x="148" y="194" class="tag">PORTFOLIO</text>
+    <text x="148" y="217" class="title">Wesley Barroso</text>
+    <text x="330" y="217" class="handle">wesleybarroso.com</text>
+    <text x="148" y="236" class="copy">Projetos • experiência • desenvolvimento</text>
+    <text x="1068" y="213" class="handle" text-anchor="end">VISIT →</text>
+  </g>
+
+  <!-- AltixDev -->
+  <g>
+    <circle cx="70" cy="287" r="25" fill="#071624" stroke="#00D9FF" stroke-width="1.8"/>
+    <!-- geometric A -->
+    <path d="M60 297L70 276L80 297M64 291H76" fill="none" stroke="#7DEAFF" stroke-width="2"/>
+    <rect x="120" y="246" width="980" height="82" rx="18" fill="#07101B" stroke="#17334E"/>
+    <rect x="120" y="246" width="4" height="82" rx="2" fill="#00D9FF"/>
+    <text x="148" y="276" class="tag">STUDIO</text>
+    <text x="148" y="299" class="title">AltixDev</text>
+    <text x="290" y="299" class="handle">altixdev.com.br</text>
+    <text x="148" y="318" class="copy">Software • APIs • automação • produtos digitais</text>
+    <text x="1068" y="295" class="handle" text-anchor="end">OPEN →</text>
+  </g>
+
+  <!-- GitHub -->
+  <g>
+    <circle cx="70" cy="369" r="25" fill="#07111B" stroke="#74869B" stroke-width="1.8"/>
+    <!-- neutral code/branch icon -->
+    <circle cx="64" cy="362" r="3.5" fill="none" stroke="#D9E4EF" stroke-width="1.5"/>
+    <circle cx="76" cy="376" r="3.5" fill="none" stroke="#D9E4EF" stroke-width="1.5"/>
+    <circle cx="76" cy="362" r="3.5" fill="none" stroke="#D9E4EF" stroke-width="1.5"/>
+    <path d="M67.5 363.5H72.5M64 365.5V372C64 374 66 376 68 376H72.5"
+          fill="none" stroke="#D9E4EF" stroke-width="1.4"/>
+    <rect x="120" y="328" width="980" height="82" rx="18" fill="#07101B" stroke="#17334E"/>
+    <rect x="120" y="328" width="4" height="82" rx="2" fill="#B7C5D6"/>
+    <text x="148" y="358" class="tag">CODE</text>
+    <text x="148" y="381" class="title">GitHub</text>
+    <text x="286" y="381" class="handle">github.com/Wesleybarroso</text>
+    <text x="148" y="400" class="copy">Código • projetos • experimentos</text>
+    <text x="1068" y="377" class="handle" text-anchor="end">OPEN →</text>
+  </g>
+
+  <!-- Instagram - only social icon treatment -->
+  <g>
+    <circle cx="70" cy="451" r="25" fill="#17101A" stroke="#E4405F" stroke-width="1.8"/>
+    <rect x="60" y="441" width="20" height="20" rx="6" fill="none" stroke="#FFB2C0" stroke-width="1.7"/>
+    <circle cx="70" cy="451" r="4.5" fill="none" stroke="#FFB2C0" stroke-width="1.5"/>
+    <circle cx="75.5" cy="445.5" r="1.4" fill="#FFB2C0"/>
+    <rect x="120" y="410" width="980" height="82" rx="18" fill="#07101B" stroke="#17334E"/>
+    <rect x="120" y="410" width="4" height="82" rx="2" fill="#E4405F"/>
+    <text x="148" y="440" class="tag">SOCIAL</text>
+    <text x="148" y="463" class="title">Instagram</text>
+    <text x="300" y="463" class="handle">@wesley.lte</text>
+    <text x="148" y="482" class="copy">Conteúdo • bastidores • projetos</text>
+    <text x="1068" y="459" class="handle" text-anchor="end">OPEN →</text>
+  </g>
+
+  <line x1="54" y1="505" x2="1146" y2="505" stroke="#17334E"/>
+  <text x="54" y="514" class="tag">WESLEY BARROSO • SOFTWARE ENGINEER • FULL STACK DEVELOPER</text>
+  <text x="1146" y="514" class="tag" text-anchor="end">ALTIXDEV</text>
+</svg>
