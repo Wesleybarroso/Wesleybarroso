@@ -44,52 +44,12 @@ alt="Áreas de atuação da AltixDev"
 
 # 💻 Tecnologias
 
-## Front-end
-
 <div align="center">
 
 <img
-src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs&perline=7"
-alt="Front-end"
-/>
-
-</div>
-
----
-
-## Back-end
-
-<div align="center">
-
-<img
-src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python&perline=5"
-alt="Back-end"
-/>
-
-</div>
-
----
-
-## Banco de Dados
-
-<div align="center">
-
-<img
-src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis&perline=4"
-alt="Banco de Dados"
-/>
-
-</div>
-
----
-
-## DevOps & Infraestrutura
-
-<div align="center">
-
-<img
-src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform&perline=6"
-alt="DevOps e Infraestrutura"
+src="./assets/tech-stack-v2.svg"
+width="100%"
+alt="Tecnologias utilizadas por Wesley Barroso"
 />
 
 </div>
@@ -109,7 +69,7 @@ alt="Linguagens mais utilizadas no mês atual"
 <br>
 
 <sub>
-Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvolvimento do mês atual.
+Atualizado automaticamente pelo GitHub Actions com base nos commits e arquivos alterados no mês atual.
 </sub>
 
 </div>
@@ -118,12 +78,9 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 
 # 🧠 Especialidades
 
-<table>
-<tr>
-
-<td width="33%" valign="top">
-
 ## 🌐 Desenvolvimento Web
+
+Construção de aplicações modernas, responsivas e orientadas à experiência do usuário.
 
 - Interfaces modernas
 - Landing pages
@@ -134,11 +91,11 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - Aplicações Vite
 - Integração Front-end + Back-end
 
-</td>
-
-<td width="33%" valign="top">
+---
 
 ## 🔌 APIs
+
+Desenvolvimento de APIs para integrar aplicações, serviços e sistemas.
 
 - REST APIs
 - APIs em Node.js
@@ -147,14 +104,14 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - JWT
 - Webhooks
 - Rate limiting
-- Integração com bancos
+- Integração com bancos de dados
 - Integração entre sistemas
 
-</td>
-
-<td width="33%" valign="top">
+---
 
 ## 🤖 Automação
+
+Criação de automações para reduzir tarefas manuais e conectar diferentes sistemas.
 
 - Automação de processos
 - Integrações
@@ -162,17 +119,13 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - Processamento de dados
 - Automação de atendimento
 - Fluxos automatizados
-- APIs externas
+- Integração com APIs externas
 
-</td>
-
-</tr>
-
-<tr>
-
-<td width="33%" valign="top">
+---
 
 ## 📱 Integrações com WhatsApp
+
+Desenvolvimento de soluções de comunicação e automação utilizando WhatsApp.
 
 - APIs de WhatsApp
 - Gerenciamento de sessões
@@ -182,11 +135,11 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - Sistemas de atendimento
 - Automação de processos
 
-</td>
-
-<td width="33%" valign="top">
+---
 
 ## 🏢 Sistemas Empresariais
+
+Desenvolvimento de sistemas personalizados para empresas e negócios.
 
 - Painéis administrativos
 - Gestão de usuários
@@ -196,11 +149,11 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - Gestão de dados
 - Integrações empresariais
 
-</td>
-
-<td width="33%" valign="top">
+---
 
 ## 🚀 SaaS
+
+Criação de produtos digitais e plataformas preparadas para crescimento.
 
 - Multiusuário
 - Multi-tenant
@@ -210,27 +163,17 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 - APIs
 - Dashboards
 - Integrações de pagamento
-- Monitoramento
-
-</td>
-
-</tr>
-</table>
+- Monitoramento de utilização
 
 ---
 
 # 🔥 Projetos
 
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
 ## 🔵 AltixDev
 
 ### Desenvolvimento de Software & Soluções Digitais
 
-A **AltixDev** é minha marca voltada para desenvolvimento de software e criação de soluções digitais.
+A **AltixDev** é minha marca voltada para desenvolvimento de software, produtos digitais e soluções personalizadas.
 
 **Áreas de atuação:**
 
@@ -243,26 +186,17 @@ A **AltixDev** é minha marca voltada para desenvolvimento de software e criaç�
 - Produtos digitais
 - SaaS
 
-<br>
+🌐 **Website:**
 
-<a href="https://altixdev.com.br">
+[![AltixDev](https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://altixdev.com.br)
 
-<img
-src="https://img.shields.io/badge/ACESSAR_ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="Acessar AltixDev"
-/>
-
-</a>
-
-</td>
-
-<td width="50%" valign="top">
+---
 
 ## 💻 Wesley Barroso
 
 ### Software Engineer & Full Stack Developer
 
-Meu portfólio pessoal reúne projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
+Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
 
 **Conteúdos:**
 
@@ -270,24 +204,12 @@ Meu portfólio pessoal reúne projetos, experiências, tecnologias e trabalhos r
 - Projetos
 - Tecnologias
 - Experiências
-- Trabalhos
 - Desenvolvimento
+- Trabalhos
 
-<br>
+🌐 **Portfólio:**
 
-<a href="https://wesleybarroso.com">
-
-<img
-src="https://img.shields.io/badge/ACESSAR_PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="Acessar portfólio"
-/>
-
-</a>
-
-</td>
-
-</tr>
-</table>
+[![Portfólio](https://img.shields.io/badge/WESLEYBARROSO.COM-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wesleybarroso.com)
 
 ---
 
@@ -350,7 +272,7 @@ Gosto de construir aplicações pensando em organização, manutenção, seguran
 <img
 src="./assets/workflow-developer-v3.svg"
 width="100%"
-alt="Workflow de desenvolvimento de Wesley Barroso"
+alt="Processo de desenvolvimento de Wesley Barroso"
 />
 
 </div>
@@ -359,39 +281,17 @@ alt="Workflow de desenvolvimento de Wesley Barroso"
 
 # 🎯 Atualmente
 
-Estou focado em construir soluções que unam **software, automação, integrações e infraestrutura**.
+Meu foco está em construir soluções que unam:
 
-### 🚀 Desenvolvimento
-
-- Criar produtos digitais
-- Desenvolver sistemas completos
-- Criar aplicações web modernas
-- Desenvolver APIs escaláveis
-- Construir aplicações SaaS
-
-### 🤖 Automação & Integrações
-
-- Automatizar processos
-- Desenvolver integrações com WhatsApp
-- Criar fluxos automatizados
-- Integrar APIs externas
-- Desenvolver sistemas de atendimento
-
-### ☁️ Infraestrutura
-
-- Melhorar ambientes de produção
-- Trabalhar com Docker
-- Automatizar deploys
-- Melhorar arquitetura
-- Criar ambientes escaláveis
-
-### 🧠 Engenharia de Software
-
-- Aprimorar arquitetura de software
-- Criar sistemas mais seguros
-- Melhorar performance
-- Trabalhar com microsserviços
-- Desenvolver soluções orientadas a dados
+- 🚀 Produtos digitais
+- 💻 Sistemas completos
+- 🔌 APIs escaláveis
+- 🤖 Automação
+- 📱 Integrações com WhatsApp
+- ☁️ Infraestrutura
+- 🧠 Arquitetura de software
+- 🔐 Segurança
+- 📊 Sistemas orientados a dados
 
 ---
 
@@ -399,37 +299,31 @@ Estou focado em construir soluções que unam **software, automação, integraç
 
 <div align="center">
 
-## 🔵 AltixDev
+<img
+src="./assets/social-links-v2.svg"
+width="100%"
+alt="Links e redes sociais de Wesley Barroso"
+/>
 
-**Desenvolvimento de software e soluções digitais**
+</div>
 
 <br>
 
-<a href="https://altixdev.com.br">
+<div align="center">
 
-<img
-src="https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="AltixDev"
-/>
+[![Portfólio](https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge)](https://wesleybarroso.com)
 
-</a>
+&nbsp;
 
-<br><br>
+[![AltixDev](https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge)](https://altixdev.com.br)
 
-## 💻 Wesley Barroso
+&nbsp;
 
-**Portfólio pessoal, projetos e experiências**
+[![GitHub](https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
 
-<br>
+&nbsp;
 
-<a href="https://wesleybarroso.com">
-
-<img
-src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="Portfólio"
-/>
-
-</a>
+[![Instagram](https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/wesley.lte)
 
 </div>
 
@@ -449,56 +343,6 @@ alt="Portfólio"
 | 🚀 SaaS | Produtos digitais |
 | 🐳 DevOps | Containers e infraestrutura |
 | 🗄️ Dados | Bancos e processamento |
-
-</div>
-
----
-
-# 🌎 Conecte-se comigo
-
-<div align="center">
-
-<a href="https://wesleybarroso.com">
-
-<img
-src="https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"
-alt="Portfólio"
-/>
-
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://altixdev.com.br">
-
-<img
-src="https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"
-alt="AltixDev"
-/>
-
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://github.com/Wesleybarroso">
-
-<img
-src="https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
-alt="GitHub"
-/>
-
-</a>
-
-&nbsp;&nbsp;
-
-<a href="https://instagram.com/wesley.lte">
-
-<img
-src="https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-alt="Instagram"
-/>
-
-</a>
 
 </div>
 
@@ -526,29 +370,16 @@ alt="Instagram"
 
 <div align="center">
 
-<img
-src="./assets/hero-altixdev.svg"
-width="100%"
-alt="AltixDev"
-/>
+### 🚀 TRANSFORMANDO IDEIAS EM SOFTWARE.
 
 <br>
-
-### 🚀 TRANSFORMANDO IDEIAS EM SOFTWARE.
 
 **Wesley Barroso**
 
 `Software Engineer` • `Full Stack Developer`
 
-<br>
+<br><br>
 
-<a href="https://github.com/Wesleybarroso">
-
-<img
-src="https://img.shields.io/badge/GitHub-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
-alt="GitHub"
-/>
-
-</a>
+[![GitHub](https://img.shields.io/badge/GitHub-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
 
 </div>
