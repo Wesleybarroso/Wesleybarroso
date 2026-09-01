@@ -1,114 +1,80 @@
-# 👋 Olá, eu sou Wesley Barroso
-
 <div align="center">
 
-### Software Engineer • Full Stack Developer • Creator of Digital Solutions
+# `>_` WESLEY BARROSO
+
+### SOFTWARE ENGINEER
+### FULL STACK DEVELOPER
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-wesleybarroso.com-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wesleybarroso.com)
-
-[![AltixDev](https://img.shields.io/badge/AltixDev-altixdev.com.br-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://altixdev.com.br)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:020617,50:0066FF,100:00BFFF&text=TRANSFORMANDO%20IDEIAS%20EM%20SOLUÇÕES&fontColor=FFFFFF&fontSize=28&fontAlignY=45&animation=twinkling&desc=Software%20%7C%20APIs%20%7C%20Automação%20%7C%20SaaS&descAlignY=65&descSize=15" width="100%"/>
 
 </div>
 
 ---
-
-## 🚀 Sobre mim
-
-Sou desenvolvedor de software focado na criação de **sistemas, APIs, automações e soluções digitais**.
-
-Gosto de transformar ideias e problemas reais em produtos funcionais, modernos, seguros e escaláveis.
-
-Minha atuação envolve principalmente desenvolvimento **Full Stack**, criação de APIs, automação de processos, integrações entre sistemas e infraestrutura para aplicações em produção.
-
-```text
-Ideia
-  ↓
-Planejamento
-  ↓
-Arquitetura
-  ↓
-Desenvolvimento
-  ↓
-Testes
-  ↓
-Deploy
-  ↓
-Produto 🚀
-```
-
-Meu objetivo não é apenas escrever código.
-
-> É transformar ideias em soluções que funcionam na prática.
-
----
-
-## 💻 Tecnologias
-
-### Front-end
 
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+## ⚡ TRANSFORMANDO IDEIAS EM SOLUÇÕES
 
 </div>
 
----
+> Meu objetivo não é apenas escrever código.
+>
+> **É transformar ideias em soluções que funcionam na prática.**
 
-### Back-end
+Desenvolvedor focado na criação de **sistemas, APIs, automações, integrações e produtos digitais**.
+
+Construo soluções pensando não apenas no código, mas também em **arquitetura, experiência, escalabilidade, infraestrutura e resultado**.
+
+---
 
 <div align="center">
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+### `IDEIA` → `CÓDIGO` → `BUILD` → `DEPLOY` → `ESCALA`
 
 </div>
 
 ---
 
-### Banco de Dados
+# 🧊 TECNOLOGIAS
 
 <div align="center">
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+## FRONT-END
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs" />
+
+<br><br>
+
+## BACK-END
+
+<img src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python" />
+
+<br><br>
+
+## BANCO DE DADOS
+
+<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis" />
+
+<br><br>
+
+## DEVOPS & INFRAESTRUTURA
+
+<img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform" />
 
 </div>
 
 ---
 
-### DevOps & Infraestrutura
+# 🧠 ESPECIALIDADES
 
-<div align="center">
+<table>
+<tr>
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
+<td width="33%" valign="top">
 
-</div>
-
----
-
-## 🧠 Especialidades
-
-### 🌐 Desenvolvimento Web
+## 🌐 Desenvolvimento Web
 
 Criação de aplicações web modernas, responsivas e focadas em experiência do usuário.
 
@@ -118,12 +84,14 @@ Criação de aplicações web modernas, responsivas e focadas em experiência do
 - Sistemas administrativos
 - Aplicações SaaS
 - Aplicações React
-- Aplicações com Vite
+- Aplicações Vite
 - Integração Front-end + Back-end
 
----
+</td>
 
-### 🔌 APIs
+<td width="33%" valign="top">
+
+## 🔌 APIs
 
 Desenvolvimento de APIs para integração entre aplicações e serviços.
 
@@ -134,12 +102,14 @@ Desenvolvimento de APIs para integração entre aplicações e serviços.
 - JWT
 - Webhooks
 - Rate limiting
-- Integração com bancos de dados
+- Integração com bancos
 - Integração entre sistemas
 
----
+</td>
 
-### 🤖 Automação
+<td width="33%" valign="top">
+
+## 🤖 Automação
 
 Criação de automações para reduzir tarefas manuais e conectar diferentes sistemas.
 
@@ -149,11 +119,17 @@ Criação de automações para reduzir tarefas manuais e conectar diferentes sis
 - Processamento de dados
 - Automação de atendimento
 - Fluxos automatizados
-- Integrações com APIs externas
+- APIs externas
 
----
+</td>
 
-### 📱 Integrações com WhatsApp
+</tr>
+
+<tr>
+
+<td width="33%" valign="top">
+
+## 📱 WhatsApp
 
 Desenvolvimento de soluções para comunicação e automação utilizando WhatsApp.
 
@@ -163,11 +139,13 @@ Desenvolvimento de soluções para comunicação e automação utilizando WhatsA
 - Webhooks
 - Integrações
 - Sistemas de atendimento
-- Automação de processos
+- Automação
 
----
+</td>
 
-### 🏢 Sistemas Empresariais
+<td width="33%" valign="top">
+
+## 🏢 Sistemas Empresariais
 
 Desenvolvimento de sistemas personalizados para empresas e negócios.
 
@@ -179,9 +157,11 @@ Desenvolvimento de sistemas personalizados para empresas e negócios.
 - Gestão de dados
 - Integrações empresariais
 
----
+</td>
 
-### 🚀 SaaS
+<td width="33%" valign="top">
+
+## 🚀 SaaS
 
 Criação de produtos digitais baseados em assinatura.
 
@@ -192,18 +172,30 @@ Criação de produtos digitais baseados em assinatura.
 - Autenticação
 - APIs
 - Dashboards
-- Integrações de pagamento
-- Monitoramento de utilização
+- Pagamentos
+- Monitoramento
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🔥 Projetos
+# 🔥 PROJETOS
 
-### 🔵 AltixDev
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+## 🔵 ALTIXDEV
+
+### Desenvolvimento de Software & Soluções Digitais
 
 A **AltixDev** é minha marca voltada para desenvolvimento de software e criação de soluções digitais.
 
-Principais áreas:
+### O que desenvolvemos
 
 - Desenvolvimento de sistemas
 - Aplicações web
@@ -212,153 +204,194 @@ Principais áreas:
 - Integrações
 - Soluções personalizadas
 - Produtos digitais
+- SaaS
 
-🌐 **Website:**
+<br>
 
-[https://altixdev.com.br](https://altixdev.com.br)
+<a href="https://altixdev.com.br">
+<img src="https://img.shields.io/badge/ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
 
----
+</td>
 
-### 💻 Wesley Barroso
+<td width="50%" valign="top">
+
+## 💻 WESLEY BARROSO
+
+### Software Engineer & Full Stack Developer
 
 Meu portfólio pessoal reúne meus projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
 
-🌐 **Portfólio:**
+### Conteúdos
 
-[https://wesleybarroso.com](https://wesleybarroso.com)
+- Portfólio
+- Projetos
+- Tecnologias
+- Experiências
+- Trabalhos
+- Desenvolvimento
+
+<br>
+
+<a href="https://wesleybarroso.com">
+<img src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+</a>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 🛠️ Stack
+# 🛠️ STACK
 
 ```text
-Frontend
-├── React
-├── TypeScript
-├── JavaScript
-├── Vite
-├── HTML
-└── CSS
+┌──────────────────────────────────────────────────────────┐
+│                         FRONTEND                         │
+├──────────────────────────────────────────────────────────┤
+│ React • TypeScript • JavaScript • Vite • HTML • CSS     │
+│ Next.js                                                 │
+└──────────────────────────────────────────────────────────┘
 
-Backend
-├── Node.js
-├── Go
-├── Express
-├── Fastify
-└── APIs REST
+┌──────────────────────────────────────────────────────────┐
+│                         BACKEND                          │
+├──────────────────────────────────────────────────────────┤
+│ Node.js • Go • Express • Fastify • Python • REST APIs  │
+└──────────────────────────────────────────────────────────┘
 
-Database
-├── PostgreSQL
-├── MySQL
-├── SQLite
-└── Redis
+┌──────────────────────────────────────────────────────────┐
+│                         DATABASE                         │
+├──────────────────────────────────────────────────────────┤
+│ PostgreSQL • MySQL • SQLite • Redis                    │
+└──────────────────────────────────────────────────────────┘
 
-Infrastructure
-├── Docker
-├── Linux
-├── Nginx
-├── Traefik
-├── Git
-└── GitHub
+┌──────────────────────────────────────────────────────────┐
+│                    INFRASTRUCTURE                        │
+├──────────────────────────────────────────────────────────┤
+│ Docker • Linux • Nginx • Traefik • Git • GitHub        │
+└──────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🏗️ Arquitetura
+# 🏗️ ARQUITETURA
 
 Gosto de trabalhar com arquiteturas que permitem que os projetos cresçam de maneira organizada.
 
 ```text
-                 ┌──────────────────┐
-                 │     Front-end    │
-                 │  React / Vite    │
-                 └────────┬─────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │       API        │
-                 │  Node.js / Go    │
-                 └────────┬─────────┘
-                          │
-             ┌────────────┼────────────┐
-             │            │            │
-             ▼            ▼            ▼
-       ┌──────────┐ ┌──────────┐ ┌──────────┐
-       │PostgreSQL│ │  Redis   │ │ Serviços │
-       └──────────┘ └──────────┘ └──────────┘
-                          │
-                          ▼
-                 ┌──────────────────┐
-                 │     Docker       │
-                 │  Infrastructure  │
-                 └──────────────────┘
+                         ┌────────────────────┐
+                         │     FRONT-END      │
+                         │   React / Vite     │
+                         └─────────┬──────────┘
+                                   │
+                                   ▼
+                         ┌────────────────────┐
+                         │        API         │
+                         │   Node.js / Go     │
+                         └─────────┬──────────┘
+                                   │
+                ┌──────────────────┼──────────────────┐
+                │                  │                  │
+                ▼                  ▼                  ▼
+        ┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+        │  PostgreSQL  │   │    Redis     │   │   Serviços   │
+        └──────────────┘   └──────────────┘   └──────────────┘
+                │                  │                  │
+                └──────────────────┼──────────────────┘
+                                   │
+                                   ▼
+                         ┌────────────────────┐
+                         │      DOCKER        │
+                         │  INFRAESTRUTURA    │
+                         └────────────────────┘
 ```
 
 ---
 
-## ⚙️ Como trabalho
+# ⚙️ COMO TRABALHO
 
-Meu processo normalmente segue algumas etapas:
+<table>
+<tr>
 
-### 01 — Entendimento
+<td align="center" width="16%">
 
-Entendo o problema, os objetivos e as necessidades do projeto.
+### 01
 
-### 02 — Planejamento
+🧠
 
-Defino funcionalidades, arquitetura e tecnologias.
+**ENTENDIMENTO**
 
-### 03 — Desenvolvimento
+Problema, objetivos e necessidades.
 
-Construo o sistema utilizando boas práticas e uma estrutura organizada.
+</td>
 
-### 04 — Testes
+<td align="center" width="16%">
 
-Verifico funcionalidades, integrações e possíveis problemas.
+### 02
 
-### 05 — Deploy
+📐
 
-Configuro o ambiente necessário para colocar a aplicação em produção.
+**PLANEJAMENTO**
 
-### 06 — Evolução
+Funcionalidades, arquitetura e tecnologias.
 
-Continuo melhorando o sistema conforme novas necessidades aparecem.
+</td>
+
+<td align="center" width="16%">
+
+### 03
+
+💻
+
+**DESENVOLVIMENTO**
+
+Código organizado e boas práticas.
+
+</td>
+
+<td align="center" width="16%">
+
+### 04
+
+🧪
+
+**TESTES**
+
+Funcionalidades e integrações.
+
+</td>
+
+<td align="center" width="16%">
+
+### 05
+
+🚀
+
+**DEPLOY**
+
+Aplicação preparada para produção.
+
+</td>
+
+<td align="center" width="16%">
+
+### 06
+
+📈
+
+**EVOLUÇÃO**
+
+Melhorias e novas funcionalidades.
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Wesleybarroso&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wesleybarroso&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 🔥 GitHub Streak
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Wesleybarroso&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Wesleybarroso&theme=tokyo-night&hide_border=true)](https://github.com/Wesleybarroso)
-
-</div>
-
----
-
-## 🎯 Atualmente
+# 🎯 ATUALMENTE
 
 Estou focado em:
 
@@ -370,48 +403,96 @@ Estou focado em:
 - 🏢 Criar soluções para empresas
 - ☁️ Melhorar infraestrutura e deploy
 - 🧠 Aprimorar arquitetura de software
+- 🔐 Criar aplicações seguras
+- 📊 Desenvolver sistemas orientados a dados
 
 ---
 
-## 🌎 Conecte-se comigo
+# 📊 ESTATÍSTICAS DO GITHUB
 
 <div align="center">
 
-### 🌐 Portfólio
+<img
+src="https://github-readme-stats.vercel.app/api?username=Wesleybarroso&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
+height="180"
+/>
 
-[![Website](https://img.shields.io/badge/wesleybarroso.com-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://wesleybarroso.com)
-
-### 🏢 AltixDev
-
-[![AltixDev](https://img.shields.io/badge/altixdev.com.br-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white)](https://altixdev.com.br)
-
-### 💻 GitHub
-
-[![GitHub](https://img.shields.io/badge/GitHub-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Wesleybarroso)
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=Wesleybarroso&layout=compact&theme=tokyonight&hide_border=true"
+height="180"
+/>
 
 </div>
 
 ---
 
-## 💙 Filosofia
+# 🔥 SEQUÊNCIA DO GITHUB
 
 <div align="center">
 
-> **Código é uma ferramenta.**
->
-> **O objetivo é criar soluções.**
+<img
+src="https://streak-stats.demolab.com/?user=Wesleybarroso&theme=tokyonight&hide_border=true"
+width="700"
+/>
 
 </div>
 
 ---
 
+# 📈 ATIVIDADE DO GITHUB
+
 <div align="center">
 
-### 🚀 Transformando ideias em software.
+<img
+src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Wesleybarroso&theme=tokyonight"
+width="100%"
+/>
+
+</div>
+
+---
+
+# 🌐 CONECTE-SE COMIGO
+
+<div align="center">
+
+<a href="https://wesleybarroso.com">
+<img src="https://img.shields.io/badge/🌐%20PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"/>
+</a>
+
+&nbsp;
+
+<a href="https://altixdev.com.br">
+<img src="https://img.shields.io/badge/🚀%20ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"/>
+</a>
+
+&nbsp;
+
+<a href="https://github.com/Wesleybarroso">
+<img src="https://img.shields.io/badge/💻%20GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+# 💙 FILOSOFIA
+
+<div align="center">
+
+### `CÓDIGO É UMA FERRAMENTA.`
+
+### `O OBJETIVO É CRIAR SOLUÇÕES.`
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:0066FF,100:00BFFF&animation=twinkling" width="100%"/>
+
+### 🚀 TRANSFORMANDO IDEIAS EM SOFTWARE.
 
 **Wesley Barroso**
 
-Software Engineer • Full Stack Developer
+`Software Engineer` • `Full Stack Developer`
 
 <br>
 
