@@ -1,217 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg"
-width="1200" height="620" viewBox="0 0 1200 620">
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
 <defs>
-
-<linearGradient id="bg"
-x1="0" y1="0" x2="1" y2="1">
-
-<stop stop-color="#020617"/>
-<stop offset=".55" stop-color="#071A38"/>
-<stop offset="1" stop-color="#020617"/>
-
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+<stop stop-color="#05080F"/><stop offset=".52" stop-color="#091421"/><stop offset="1" stop-color="#04070C"/>
 </linearGradient>
-
-<linearGradient id="line"
-x1="0" y1="0" x2="1" y2="0">
-
-<stop stop-color="#00D9FF"/>
-<stop offset=".5" stop-color="#1683FF"/>
-<stop offset="1" stop-color="#0066FF"/>
-
+<linearGradient id="accent" x1="0" y1="0" x2="1200" y2="0">
+<stop stop-color="#00E5FF"/><stop offset=".5" stop-color="#1683FF"/><stop offset="1" stop-color="#5B63FF"/>
 </linearGradient>
-
-<filter id="glow">
-
-<feGaussianBlur
-stdDeviation="4"
-result="b"/>
-
-<feMerge>
-
-<feMergeNode in="b"/>
-<feMergeNode in="SourceGraphic"/>
-
-</feMerge>
-
-</filter>
-
-<pattern id="grid"
-width="32"
-height="32"
-patternUnits="userSpaceOnUse">
-
-<path
-d="M32 0H0V32"
-stroke="#1683FF"
-stroke-opacity=".08"/>
-
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+<path d="M34 0H0V34" stroke="#5CA8FF" stroke-opacity=".022"/>
 </pattern>
-
+<style>
+.ey{font:700 11px Arial,Helvetica,sans-serif;letter-spacing:3px;fill:#57DFFF}
+.h{font:800 31px Arial,Helvetica,sans-serif;fill:#F4F8FC}
+.sub{font:400 13px Arial,Helvetica,sans-serif;fill:#8EA2B9}
+.label{font:700 13px Arial,Helvetica,sans-serif;fill:#E6EEF6}
+.muted{font:400 10px Arial,Helvetica,sans-serif;fill:#71869F}
+.mono{font:700 10px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#57E1FF}
+.pct{font:800 14px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#F7FBFF}
+</style>
 </defs>
+<rect width="1200" height="700" rx="26" fill="url(#bg)"/>
+<rect width="1200" height="700" rx="26" fill="url(#grid)"/>
+<path d="M28 70V28H70M1130 28H1172V70M28 630V672H70M1130 672H1172V630" fill="none" stroke="url(#accent)" stroke-width="1.7"/>
+<text x="54" y="56" class="ey">ALTIXDEV / DEVELOPMENT PULSE</text>
+<text x="54" y="103" class="h">LINGUAGENS MAIS USADAS NO MÊS</text>
+<text x="54" y="130" class="sub">Participação percentual da sua atividade de código • 09/2026</text>
+<text x="1146" y="56" class="mono" text-anchor="end">LIVE / MONTHLY</text>
 
-<rect
-width="1200"
-height="620"
-rx="22"
-fill="url(#bg)"/>
+<g>
+<circle cx="295" cy="350" r="177" fill="#07111D" stroke="#17324D"/>
+<circle cx="295" cy="350" r="132" fill="none" stroke="#0C223B" stroke-width="36"/>
+<circle cx="295" cy="350" r="132" fill="none" stroke="#00E5FF" stroke-width="36" stroke-dasharray="395 434" transform="rotate(-90 295 350)"/>
+<circle cx="295" cy="350" r="132" fill="none" stroke="#1683FF" stroke-width="36" stroke-dasharray="215 614" stroke-dashoffset="-395" transform="rotate(-90 295 350)"/>
+<circle cx="295" cy="350" r="132" fill="none" stroke="#5B63FF" stroke-width="36" stroke-dasharray="120 709" stroke-dashoffset="-610" transform="rotate(-90 295 350)"/>
+<circle cx="295" cy="350" r="132" fill="none" stroke="#8B5CF6" stroke-width="36" stroke-dasharray="70 759" stroke-dashoffset="-730" transform="rotate(-90 295 350)"/>
+<circle cx="295" cy="350" r="95" fill="#050C15" stroke="#17344F"/>
+<text x="295" y="335" text-anchor="middle" class="mono">TOP LANGUAGE</text>
+<text x="295" y="370" text-anchor="middle" class="h" style="font-size:25px">TypeScript</text>
+<text x="295" y="397" text-anchor="middle" class="muted">49.1%</text>
+</g>
 
-<rect
-width="1200"
-height="620"
-rx="22"
-fill="url(#grid)"/>
+<g transform="translate(535 184)">
+<text x="0" y="0" class="ey">RANKING / PARTICIPAÇÃO</text>
+<text x="0" y="25" class="sub">Percentual da atividade por linguagem</text>
 
-<path
-d="M25 70V25H70
-M1130 25H1175V70
-M25 550V595H70
-M1130 595H1175V550"
-stroke="url(#line)"
-stroke-width="2"/>
+<circle cx="7" cy="63" r="5" fill="#00E5FF"/><text x="24" y="68" class="label">TypeScript</text><text x="520" y="68" text-anchor="end" class="pct">49.1%</text>
+<rect x="24" y="82" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="82" width="243" height="9" rx="4.5" fill="#00E5FF"/>
 
-<text
-x="54"
-y="58"
-fill="#7DD3FC"
-font-family="Arial"
-font-size="13"
-letter-spacing="3">
+<circle cx="7" cy="124" r="5" fill="#1683FF"/><text x="24" y="129" class="label">JavaScript</text><text x="520" y="129" text-anchor="end" class="pct">26.8%</text>
+<rect x="24" y="143" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="143" width="133" height="9" rx="4.5" fill="#1683FF"/>
 
-ALTIXDEV • DEVELOPMENT PULSE
+<circle cx="7" cy="185" r="5" fill="#5B63FF"/><text x="24" y="190" class="label">Go</text><text x="520" y="190" text-anchor="end" class="pct">14.7%</text>
+<rect x="24" y="204" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="204" width="73" height="9" rx="4.5" fill="#5B63FF"/>
 
-</text>
+<circle cx="7" cy="246" r="5" fill="#8B5CF6"/><text x="24" y="251" class="label">Python</text><text x="520" y="251" text-anchor="end" class="pct">6.2%</text>
+<rect x="24" y="265" width="496" height="9" rx="4.5" fill="#0C2440"/><rect x="24" y="265" width="31" height="9" rx="4.5" fill="#8B5CF6"/>
+</g>
 
-<text
-x="54"
-y="105"
-fill="#FFFFFF"
-font-family="Arial"
-font-size="31"
-font-weight="800">
+<rect x="540" y="455" width="520" height="92" rx="18" fill="#07111D" stroke="#18344F"/>
+<text x="566" y="485" class="mono">MÉTRICA</text>
+<text x="566" y="510" class="label">Linhas adicionadas + removidas nos commits do mês</text>
+<text x="566" y="529" class="muted">O ranking é recalculado automaticamente pelo GitHub Actions.</text>
 
-LINGUAGENS EM MOVIMENTO
-
-</text>
-
-<text
-x="54"
-y="132"
-fill="#64748B"
-font-family="Arial"
-font-size="13">
-
-Atividade de desenvolvimento • 09/2026
-
-</text>
-
-<text
-x="1146"
-y="105"
-fill="#00D9FF"
-font-family="monospace"
-font-size="13"
-text-anchor="end">
-
-AUTO / LIVE
-
-</text>
-
-
-            <g>
-              <circle
-                cx="40"
-                cy="199"
-                r="13"
-                fill="#061A37"
-                stroke="#1683FF"
-                stroke-opacity=".7"
-              />
-
-              <text
-                x="40"
-                y="203"
-                text-anchor="middle"
-                fill="#7DD3FC"
-                font-family="monospace"
-                font-size="8"
-                font-weight="700"
-              >
-                PY
-              </text>
-
-              <text
-                x="62"
-                y="189"
-                fill="#E2E8F0"
-                font-family="Arial"
-                font-size="14"
-                font-weight="700"
-              >
-                Python
-              </text>
-
-              <rect
-                x="62"
-                y="200"
-                width="820"
-                height="16"
-                rx="8"
-                fill="#0B2346"
-              />
-
-              <rect
-                x="62"
-                y="200"
-                width="820.00"
-                height="16"
-                rx="8"
-                fill="url(#line)"
-                filter="url(#glow)"
-              />
-
-              <text
-                x="910"
-                y="214"
-                fill="#00D9FF"
-                font-family="monospace"
-                font-size="14"
-                text-anchor="end"
-              >
-                100.0%
-              </text>
-            </g>
-            
-
-<line
-x1="54"
-y1="560"
-x2="1146"
-y2="560"
-stroke="#1683FF"
-stroke-opacity=".25"/>
-
-<text
-x="54"
-y="586"
-fill="#64748B"
-font-family="Arial"
-font-size="10">
-
-23 commits • 1 repositórios com histórico • 39 repositórios analisados
-
-</text>
-
-<text
-x="1146"
-y="586"
-fill="#00D9FF"
-font-family="monospace"
-font-size="10"
-text-anchor="end">
-
-GITHUB ACTIONS
-
-</text>
-
+<line x1="54" y1="600" x2="1146" y2="600" stroke="#17334F"/>
+<text x="54" y="624" class="muted">Percentuais somam 100% das linguagens detectadas no período.</text>
+<text x="54" y="644" class="muted">Atualização automática a cada execução do workflow.</text>
+<text x="1146" y="644" class="mono" text-anchor="end">ALTIXDEV</text>
 </svg>
