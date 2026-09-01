@@ -48,7 +48,10 @@ alt="Áreas de atuação da AltixDev"
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs" alt="Tecnologias Front-end"/>
+<img
+src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,nextjs&perline=7"
+alt="Front-end"
+/>
 
 </div>
 
@@ -58,7 +61,10 @@ alt="Áreas de atuação da AltixDev"
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python" alt="Tecnologias Back-end"/>
+<img
+src="https://skillicons.dev/icons?i=nodejs,go,express,fastify,python&perline=5"
+alt="Back-end"
+/>
 
 </div>
 
@@ -68,7 +74,10 @@ alt="Áreas de atuação da AltixDev"
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis" alt="Banco de Dados"/>
+<img
+src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis&perline=4"
+alt="Banco de Dados"
+/>
 
 </div>
 
@@ -78,7 +87,10 @@ alt="Áreas de atuação da AltixDev"
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform" alt="DevOps e Infraestrutura"/>
+<img
+src="https://skillicons.dev/icons?i=docker,linux,nginx,git,github,terraform&perline=6"
+alt="DevOps e Infraestrutura"
+/>
 
 </div>
 
@@ -107,7 +119,6 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 # 🧠 Especialidades
 
 <table>
-
 <tr>
 
 <td width="33%" valign="top">
@@ -204,7 +215,6 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 </td>
 
 </tr>
-
 </table>
 
 ---
@@ -212,7 +222,6 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 # 🔥 Projetos
 
 <table>
-
 <tr>
 
 <td width="50%" valign="top">
@@ -223,7 +232,7 @@ Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvol
 
 A **AltixDev** é minha marca voltada para desenvolvimento de software e criação de soluções digitais.
 
-### Áreas de atuação
+**Áreas de atuação:**
 
 - Desenvolvimento de sistemas
 - Aplicações web
@@ -239,8 +248,8 @@ A **AltixDev** é minha marca voltada para desenvolvimento de software e criaç�
 <a href="https://altixdev.com.br">
 
 <img
-src="https://img.shields.io/badge/ACESSAR%20ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="AltixDev"
+src="https://img.shields.io/badge/ACESSAR_ALTIXDEV-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
+alt="Acessar AltixDev"
 />
 
 </a>
@@ -255,7 +264,7 @@ alt="AltixDev"
 
 Meu portfólio pessoal reúne projetos, experiências, tecnologias e trabalhos relacionados ao desenvolvimento de software.
 
-### Conteúdos
+**Conteúdos:**
 
 - Portfólio
 - Projetos
@@ -269,8 +278,8 @@ Meu portfólio pessoal reúne projetos, experiências, tecnologias e trabalhos r
 <a href="https://wesleybarroso.com">
 
 <img
-src="https://img.shields.io/badge/ACESSAR%20PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="Portfólio"
+src="https://img.shields.io/badge/ACESSAR_PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
+alt="Acessar portfólio"
 />
 
 </a>
@@ -278,39 +287,25 @@ alt="Portfólio"
 </td>
 
 </tr>
-
 </table>
 
 ---
 
 # 🛠️ Stack
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│                      FRONT-END                          │
-├─────────────────────────────────────────────────────────┤
-│ React • TypeScript • JavaScript • Vite • HTML • CSS    │
-│ Next.js                                                 │
-└─────────────────────────────────────────────────────────┘
+<div align="center">
 
-┌─────────────────────────────────────────────────────────┐
-│                       BACK-END                          │
-├─────────────────────────────────────────────────────────┤
-│ Node.js • Go • Express • Fastify • Python • REST APIs │
-└─────────────────────────────────────────────────────────┘
+| Camada | Tecnologias |
+|:---:|:---|
+| 🌐 Front-end | React · TypeScript · JavaScript · Vite · Next.js · HTML · CSS |
+| ⚙️ Back-end | Node.js · Go · Express · Fastify · Python |
+| 🔌 APIs | REST · JWT · Webhooks · Rate Limiting · Integrações |
+| 🗄️ Database | PostgreSQL · MySQL · SQLite · Redis |
+| 🐳 Infraestrutura | Docker · Linux · Nginx · Traefik |
+| 🔧 Versionamento | Git · GitHub |
+| 🚀 Produto | SaaS · Sistemas · Automação |
 
-┌─────────────────────────────────────────────────────────┐
-│                       DATABASE                          │
-├─────────────────────────────────────────────────────────┤
-│ PostgreSQL • MySQL • SQLite • Redis                   │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│                    INFRASTRUCTURE                       │
-├─────────────────────────────────────────────────────────┤
-│ Docker • Linux • Nginx • Traefik • Git • GitHub       │
-└─────────────────────────────────────────────────────────┘
-```
+</div>
 
 ---
 
@@ -355,7 +350,7 @@ Gosto de construir aplicações pensando em organização, manutenção, seguran
 <img
 src="./assets/workflow-developer-v3.svg"
 width="100%"
-alt="Como trabalho, ciclo de desenvolvimento e painel do desenvolvedor"
+alt="Workflow de desenvolvimento de Wesley Barroso"
 />
 
 </div>
@@ -431,7 +426,7 @@ alt="AltixDev"
 
 <img
 src="https://img.shields.io/badge/PORTFÓLIO-0066FF?style=for-the-badge&logo=googlechrome&logoColor=white"
-alt="Portfólio de Wesley Barroso"
+alt="Portfólio"
 />
 
 </a>
@@ -466,7 +461,7 @@ alt="Portfólio de Wesley Barroso"
 <a href="https://wesleybarroso.com">
 
 <img
-src="https://img.shields.io/badge/🌐%20PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"
+src="https://img.shields.io/badge/🌐_PORTFÓLIO-wesleybarroso.com-0066FF?style=for-the-badge"
 alt="Portfólio"
 />
 
@@ -477,7 +472,7 @@ alt="Portfólio"
 <a href="https://altixdev.com.br">
 
 <img
-src="https://img.shields.io/badge/🚀%20ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"
+src="https://img.shields.io/badge/🚀_ALTIXDEV-altixdev.com.br-0066FF?style=for-the-badge"
 alt="AltixDev"
 />
 
@@ -488,8 +483,19 @@ alt="AltixDev"
 <a href="https://github.com/Wesleybarroso">
 
 <img
-src="https://img.shields.io/badge/💻%20GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
+src="https://img.shields.io/badge/💻_GITHUB-Wesleybarroso-111111?style=for-the-badge&logo=github&logoColor=white"
 alt="GitHub"
+/>
+
+</a>
+
+&nbsp;&nbsp;
+
+<a href="https://instagram.com/wesley.lte">
+
+<img
+src="https://img.shields.io/badge/📸_INSTAGRAM-@wesley.lte-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+alt="Instagram"
 />
 
 </a>
@@ -521,10 +527,12 @@ alt="GitHub"
 <div align="center">
 
 <img
-src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:020617,50:0066FF,100:00BFFF&animation=twinkling"
+src="./assets/hero-altixdev.svg"
 width="100%"
-alt="Footer"
+alt="AltixDev"
 />
+
+<br>
 
 ### 🚀 TRANSFORMANDO IDEIAS EM SOFTWARE.
 
