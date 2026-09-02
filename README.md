@@ -277,8 +277,6 @@ alt="Como trabalho, ciclo de desenvolvimento e painel do desenvolvedor"
 
 </div>
 
-> **Nota:** o `workflow-developer-v3.svg` já possui visualmente as áreas de **Como trabalho**, **Ciclo de Desenvolvimento**, **Painel do Desenvolvedor** e **Atualmente**. Por isso elas não são repetidas em Markdown abaixo do SVG.
-
 ---
 
 # 🌎 Conecte-se comigo
