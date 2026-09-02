@@ -61,15 +61,15 @@ alt="Tecnologias utilizadas por Wesley Barroso"
 <div align="center">
 
 <img
-src="./assets/languages-month.svg"
+src="https://web-script-github-perfil.xzhrcw.easypanel.host/heartbeat.svg"
 width="100%"
-alt="Linguagens mais utilizadas no mês atual"
+alt="Development Pulse — linguagens mais utilizadas no mês atual"
 />
 
 <br>
 
 <sub>
-Atualizado automaticamente pelo GitHub Actions com base na atividade de desenvolvimento do mês atual.
+Atualizado automaticamente pelo Development Pulse • monitoramento contínuo 
 </sub>
 
 </div>
